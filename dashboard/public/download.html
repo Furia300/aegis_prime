@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download AEGIS PRIME App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #fff;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(15, 23, 42, 0.8);
+            border: 2px solid #00d4ff;
+            border-radius: 16px;
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 0 40px rgba(0, 212, 255, 0.3);
+        }
+
+        .logo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 24px;
+            background: linear-gradient(135deg, #dc2626, #991b1b);
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            font-weight: bold;
+            color: #fff;
+            box-shadow: 0 0 20px rgba(220, 38, 38, 0.5);
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 8px;
+            background: linear-gradient(90deg, #dc2626, #ef4444);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            color: #94a3b8;
+            font-size: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 32px;
+        }
+
+        .version {
+            background: rgba(0, 212, 255, 0.1);
+            border: 1px solid #00d4ff;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 24px;
+        }
+
+        .version-title {
+            color: #00d4ff;
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+
+        .version-info {
+            color: #cbd5e1;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .download-btn {
+            background: linear-gradient(135deg, #00d4ff, #0891b2);
+            color: #000;
+            border: none;
+            border-radius: 12px;
+            padding: 16px 32px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 20px rgba(0, 212, 255, 0.4);
+            margin-bottom: 16px;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 0 30px rgba(0, 212, 255, 0.6);
+        }
+
+        .download-btn:active {
+            transform: translateY(0);
+        }
+
+        .file-info {
+            color: #64748b;
+            font-size: 12px;
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid #334155;
+        }
+
+        .instructions {
+            background: rgba(220, 38, 38, 0.1);
+            border: 1px solid #dc2626;
+            border-radius: 8px;
+            padding: 16px;
+            margin-top: 24px;
+            text-align: left;
+        }
+
+        .instructions-title {
+            color: #dc2626;
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 12px;
+            letter-spacing: 1px;
+        }
+
+        .instructions ol {
+            color: #cbd5e1;
+            font-size: 13px;
+            line-height: 1.8;
+            margin-left: 20px;
+        }
+
+        .instructions li {
+            margin-bottom: 8px;
+        }
+
+        .warning {
+            background: rgba(234, 179, 8, 0.1);
+            border: 1px solid #eab308;
+            border-radius: 8px;
+            padding: 12px;
+            margin-top: 16px;
+            color: #eab308;
+            font-size: 12px;
+            text-align: left;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .status-indicator {
+            width: 8px;
+            height: 8px;
+            background: #10b981;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 8px;
+            animation: pulse 2s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🛡️</div>
+
+        <h1>AEGIS PRIME</h1>
+        <p class="subtitle">Painel de Guerra V3.0</p>
+
+        <div class="version">
+            <div class="version-title">
+                <span class="status-indicator"></span>
+                INFORMAÇÕES DO APK
+            </div>
+            <div class="version-info">
+                <strong>Versão:</strong> 3.0.0 (Build 202601311)<br>
+                <strong>Tamanho:</strong> ~75 MB<br>
+                <strong>Compatibilidade:</strong> Android 8.0+
+            </div>
+        </div>
+
+        <a href="/aegis-prime.apk" class="download-btn" id="downloadBtn" download="aegis-prime.apk">
+            📥 BAIXAR APK
+        </a>
+
+        <div class="file-info">
+            O download iniciará automaticamente.<br>
+            Se não iniciar, clique no botão novamente.
+        </div>
+
+        <div class="instructions">
+            <div class="instructions-title">⚠️ INSTRUÇÕES DE INSTALAÇÃO</div>
+            <ol>
+                <li>Aguarde o download completar</li>
+                <li>Abra o arquivo <strong>aegis-prime.apk</strong></li>
+                <li>Se solicitado, habilite <strong>"Instalar de fontes desconhecidas"</strong></li>
+                <li>Siga as instruções de instalação</li>
+                <li>Após instalar, volte ao Dashboard e escaneie o QR Code</li>
+            </ol>
+        </div>
+
+        <div class="warning">
+            <strong>⚡ ATENÇÃO:</strong> Este aplicativo requer permissões especiais para funcionar corretamente. Certifique-se de conceder todas as permissões solicitadas durante a instalação.
+        </div>
+    </div>
+
+    <script>
+        // Log do download
+        console.log('Página de download carregada');
+
+        const downloadBtn = document.getElementById('downloadBtn');
+
+        // Forçar download com tipo MIME correto
+        downloadBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            console.log('Download iniciado');
+
+            // Criar um elemento <a> invisível para forçar download
+            const link = document.createElement('a');
+            link.href = '/aegis-prime.apk';
+            link.download = 'aegis-prime.apk';
+            link.type = 'application/vnd.android.package-archive';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+
+            // Atualizar feedback visual
+            const originalText = downloadBtn.innerHTML;
+            downloadBtn.innerHTML = '⏳ Iniciando download...';
+            downloadBtn.style.background = 'linear-gradient(135deg, #10b981, #059669)';
+
+            setTimeout(() => {
+                downloadBtn.innerHTML = '✅ Download iniciado!';
+            }, 1000);
+
+            setTimeout(() => {
+                downloadBtn.innerHTML = originalText;
+                downloadBtn.style.background = 'linear-gradient(135deg, #00d4ff, #0891b2)';
+            }, 3000);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Baixando AEGIS PRIME...</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(15, 23, 42, 0.95);
+            border: 3px solid #00d4ff;
+            border-radius: 25px;
+            padding: 50px;
+            max-width: 450px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 0 80px rgba(0, 212, 255, 0.6);
+        }
+
+        .logo {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 30px;
+            background: linear-gradient(135deg, #dc2626, #991b1b);
+            border-radius: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 80px;
+            box-shadow: 0 0 40px rgba(220, 38, 38, 0.7);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.08); }
+        }
+
+        h1 {
+            font-size: 42px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            background: linear-gradient(90deg, #00d4ff, #0891b2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .status {
+            color: #10b981;
+            font-size: 18px;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+
+        .progress-container {
+            width: 100%;
+            height: 8px;
+            background: rgba(0, 212, 255, 0.2);
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 30px 0;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #00d4ff, #10b981);
+            width: 0%;
+            animation: loading 2s infinite;
+        }
+
+        @keyframes loading {
+            0% { width: 0%; }
+            50% { width: 100%; }
+        }
+
+        .info {
+            background: rgba(0, 212, 255, 0.1);
+            border: 2px solid #00d4ff;
+            border-radius: 15px;
+            padding: 25px;
+            margin: 25px 0;
+        }
+
+        .info p {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #cbd5e1;
+        }
+
+        .info strong {
+            color: #00d4ff;
+        }
+
+        .btn-manual {
+            background: linear-gradient(135deg, #00d4ff, #0891b2);
+            color: #000;
+            border: none;
+            border-radius: 15px;
+            padding: 18px 35px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 30px rgba(0, 212, 255, 0.5);
+        }
+
+        .btn-manual:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0 45px rgba(0, 212, 255, 0.8);
+        }
+
+        .warning {
+            background: rgba(234, 179, 8, 0.1);
+            border: 2px solid #eab308;
+            border-radius: 12px;
+            padding: 18px;
+            margin-top: 25px;
+            color: #fbbf24;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🛡️</div>
+        <h1>AEGIS PRIME</h1>
+        <div class="status" id="status" style="background: #28a745; color: white;">✅ VERSÃO FINAL PRONTA!</div>
+
+        <div class="progress-container" style="display:none;">        
+            <div class="progress-bar"></div>    
+        </div>
+
+        <div class="info">
+            <p>
+                <strong>Status:</strong> APK RELEASE ASSINADO ✅<br>
+                <strong>Versão:</strong> 3.1.8-FINAL<br>
+                <strong>Projeto:</strong> Nativo Kotlin (Android Studio)<br>
+                <strong>Tamanho:</strong> 13MB
+            </p>
+        </div>
+
+        <a href="/aegis-prime.apk" id="manualBtn" class="btn-manual" download="aegis-prime.apk">
+            📥 CLIQUE PARA BAIXAR
+        </a>
+
+        <div class="warning">
+            ⚠️ Se o arquivo baixar como <strong>.zip</strong>, renomeie para <strong>.apk</strong>.<br>
+            ⚠️ Permita a instalação de fontes desconhecidas ao abrir.
+        </div>
+    </div>
+
+    <script>
+        // Tentar download automático via link direto
+        window.onload = function() {
+            setTimeout(function() {
+                const link = document.createElement('a');
+                link.href = '/aegis-prime.apk';
+                link.download = 'aegis-prime.apk'; // Sugerir nome correto
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+
+                document.getElementById('status').textContent = '✅ Download iniciado!';
+            }, 1500);
+        };
+    </script>
+</body>
+</html>

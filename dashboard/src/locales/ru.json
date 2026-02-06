@@ -1,0 +1,133 @@
+{
+  "app": {
+    "title": "AEGIS PRIME",
+    "subtitle": "Ситуационная комната v3.0",
+    "status": "СИСТЕМА: В СЕТИ",
+    "encrypted": "ШИФРОВАНИЕ: AES-256",
+    "threat_level": "УРОВЕНЬ УГРОЗЫ: НИЗКИЙ",
+    "operator": "ОПЕРАТОР",
+    "operator_id": "ID: 88-ALPHA",
+    "no_alerts": "Нет новых оповещений"
+  },
+  "sidebar": {
+    "my_subscriptions": "МОИ ПОДПИСКИ",
+    "dashboard": "Панель управления",
+    "remote_control": "УДАЛЕННОЕ УПРАВЛЕНИЕ",
+    "surroundings_listening": "Прослушка окружения",
+    "remote_camera": "Удаленная камера",
+    "call_recorder": "Запись звонков",
+    "live_screenshots": "Скриншоты в реальном времени",
+    "live_screen_streaming": "Трансляция экрана",
+    "block_apps": "Блокировка приложений",
+    "block_websites": "Блокировка сайтов",
+    "block_wifi": "Блокировка Wi-Fi",
+    "ai_tools": "ИИ ИНСТРУМЕНТЫ",
+    "chatgpt": "ChatGPT",
+    "gemini": "Gemini",
+    "monitoring": "МОНИТОРИНГ",
+    "keywords": "Ключевые слова",
+    "spy_panel": "Глубокая слежка"
+  },
+  "spy": {
+    "title": "ГЛУБОКАЯ СЛЕЖКА",
+    "subtitle": "Доступ к сырым данным и скрытым файлам",
+    "tabs": {
+      "keylogger": "КЕЙЛОГГЕР",
+      "media": "ФАЙЛЫ И МЕДИА",
+      "schedule": "РАСПИСАНИЯ"
+    },
+    "keylogger_status": "Статус кейлоггера",
+    "active": "АКТИВЕН (Доступ разрешен)",
+    "clear_logs": "ОЧИСТИТЬ ЛОГИ",
+    "new_rule": "НОВОЕ ПРАВИЛО АВТОЗАПИСИ",
+    "type": "Тип захвата",
+    "interval": "Интервал",
+    "duration": "Длительность (если аудио)",
+    "activate_schedule": "АКТИВИРОВАТЬ РАСПИСАНИЕ",
+    "active_rules": "Активные правила"
+  },
+  "keywords": {
+    "title": "СТРАЖ КЛЮЧЕВЫХ СЛОВ",
+    "subtitle": "Семантический мониторинг сообщений и ввода в реальном времени",
+    "active_monitoring": "АКТИВНЫЙ МОНИТОРИНГ",
+    "add_trigger": "Добавить новый триггер",
+    "keyword_label": "Ключевое слово / Фраза",
+    "placeholder": "Напр: помоги мне, секретная встреча...",
+    "category": "Категория",
+    "severity": "Важность",
+    "activate_trigger": "АКТИВИРОВАТЬ ТРИГГЕР",
+    "latest_detections": "Последние обнаружения (Симуляция)",
+    "active_triggers": "Активные триггеры",
+    "synced": "СИНХРОНИЗИРОВАНО С АГЕНТОМ"
+  },
+  "command": {
+    "title": "Защищаемые активы",
+    "no_assets": "НЕТ ПОДКЛЮЧЕННЫХ АКТИВОВ",
+    "waiting": "Ожидание телеметрии агента...",
+    "ai_matrix": "Матрица угроз ИИ",
+    "matrix": {
+      "sentiment": "Анализ настроений",
+      "geo": "Геопространственный риск",
+      "chatgpt": "Интеграция ChatGPT"
+    },
+    "actions": {
+      "mic": "Мик",
+      "cam": "Кам",
+      "rec": "Зап",
+      "shot": "Сним",
+      "live": "Live",
+      "lock": "Блок",
+      "wipe": "Стер"
+    }
+  },
+  "map": {
+    "target_locked": "ЦЕЛЬ ЗАХВАЧЕНА",
+    "device": "УСТРОЙСТВО",
+    "battery": "БАТАРЕЯ",
+    "status": "СТАТУС",
+    "online": "В СЕТИ",
+    "offline": "НЕ В СЕТИ",
+    "coords": "КООРД",
+    "overlay": "ТАКТИЧЕСКИЙ СЛОЙ",
+    "friendly": "ДРУЖЕСТВЕННЫЕ ЮНИТЫ",
+    "hostiles": "ВРАГИ"
+  },
+  "feed": {
+    "title": "ЛЕНТА АКТИВНОСТИ В РЕАЛЬНОМ ВРЕМЕНИ",
+    "live": "LIVE"
+  },
+  "intel": {
+    "telemetry": "Телеметрия устройства",
+    "network": "Сеть",
+    "persistence": "Персистентность",
+    "critical_alerts": "Критические оповещения",
+    "top_websites": "Топ сайтов (24ч)",
+    "top_contacts": "Топ контактов",
+    "calls": "звонков",
+    "acknowledge": "Подтвердить",
+    "locate": "Найти"
+  },
+  "settings": {
+    "title": "Конфигурация системы",
+    "language": "Язык интерфейса",
+    "select_language": "Выбрать язык",
+    "close": "Закрыть",
+    "save": "Сохранить изменения"
+  },
+  "pairing": {
+    "title": "ДОБАВИТЬ УСТРОЙСТВО",
+    "scan_title": "Сканировать камерой (HTTPS v2)",
+    "scan_subtitle": "Откройте камеру или QR-ридер. Будет обнаружена безопасная ссылка HTTPS.",
+    "scan_with_app": "Сканировать через Aegis App",
+    "scan_instruction": "Откройте приложение на целевом устройстве и наведите камеру на этот код.",
+    "deep_link_label": "DEEP LINK",
+    "deep_link_instruction": "Отправьте эту ссылку на целевое устройство через WhatsApp, SMS или Email. Клик по ней автоматически выполнит сопряжение.",
+    "manual_code_label": "КОД ВРУЧНУЮ",
+    "manual_code_instruction": "Введите этот 6-значный код вручную на экране сопряжения Aegis Mobile App.",
+    "nfc_title": "Готов к NFC",
+    "nfc_instruction": "Поднесите целевое устройство к этому терминалу (если поддерживается).",
+    "expires_in": "СЕССИЯ ИСТЕКАЕТ ЧЕРЕЗ:",
+    "id": "ID",
+    "copy_text": "Копировать текст"
+  }
+}

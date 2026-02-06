@@ -1,0 +1,133 @@
+{
+  "app": {
+    "title": "AEGIS PRIME",
+    "subtitle": "Panel de Guerra v3.0",
+    "status": "SISTEMA: EN LÍNEA",
+    "encrypted": "ENCRIPTADO: AES-256",
+    "threat_level": "NIVEL DE AMENAZA: BAJO",
+    "operator": "OPERADOR",
+    "operator_id": "ID: 88-ALPHA",
+    "no_alerts": "Sin nuevas alertas"
+  },
+  "sidebar": {
+    "my_subscriptions": "MIS SUSCRIPCIONES",
+    "dashboard": "Panel Principal",
+    "remote_control": "CONTROL REMOTO",
+    "surroundings_listening": "Escucha Ambiental",
+    "remote_camera": "Cámara Remota",
+    "call_recorder": "Grabador de Llamadas",
+    "live_screenshots": "Capturas en Vivo",
+    "live_screen_streaming": "Transmisión de Pantalla",
+    "block_apps": "Bloquear Apps",
+    "block_websites": "Bloquear Sitios",
+    "block_wifi": "Bloquear Wi-Fi",
+    "ai_tools": "HERRAMIENTAS IA",
+    "chatgpt": "ChatGPT",
+    "gemini": "Gemini",
+    "monitoring": "MONITOREO",
+    "keywords": "Palabras Clave",
+    "spy_panel": "Vigilancia Profunda"
+  },
+  "spy": {
+    "title": "VIGILANCIA PROFUNDA",
+    "subtitle": "Acceso a datos brutos y archivos ocultos",
+    "tabs": {
+      "keylogger": "REGISTRO DE TECLAS",
+      "media": "ARCHIVOS Y MEDIOS",
+      "schedule": "PROGRAMACIONES"
+    },
+    "keylogger_status": "Estado del Keylogger",
+    "active": "ACTIVO (Accesibilidad Concedida)",
+    "clear_logs": "BORRAR REGISTROS",
+    "new_rule": "NUEVA REGLA DE AUTO-GRABACIÓN",
+    "type": "Tipo de Captura",
+    "interval": "Intervalo",
+    "duration": "Duración (si es audio)",
+    "activate_schedule": "ACTIVAR PROGRAMACIÓN",
+    "active_rules": "Reglas Activas"
+  },
+  "keywords": {
+    "title": "CENTINELA DE PALABRAS",
+    "subtitle": "Monitoreo semántico de mensajes y escritura en tiempo real",
+    "active_monitoring": "MONITOREO ACTIVO",
+    "add_trigger": "Añadir Nuevo Disparador",
+    "keyword_label": "Palabra Clave / Frase",
+    "placeholder": "Ej: ayúdame, reunión secreta...",
+    "category": "Categoría",
+    "severity": "Severidad",
+    "activate_trigger": "ACTIVAR DISPARADOR",
+    "latest_detections": "Últimas Detecciones (Simulación)",
+    "active_triggers": "Disparadores Activos",
+    "synced": "SINCRONIZADO CON AGENTE"
+  },
+  "command": {
+    "title": "Activos Protegidos",
+    "no_assets": "SIN ACTIVOS CONECTADOS",
+    "waiting": "Esperando telemetría del agente...",
+    "ai_matrix": "Matriz de Amenazas IA",
+    "matrix": {
+      "sentiment": "Análisis de Sentimiento",
+      "geo": "Riesgo Geoespacial",
+      "chatgpt": "Integración ChatGPT"
+    },
+    "actions": {
+      "mic": "Mic",
+      "cam": "Cám",
+      "rec": "Grab",
+      "shot": "Capt",
+      "live": "Vivo",
+      "lock": "Bloq",
+      "wipe": "Borr"
+    }
+  },
+  "map": {
+    "target_locked": "OBJETIVO FIJADO",
+    "device": "DISPOSITIVO",
+    "battery": "BATERÍA",
+    "status": "ESTADO",
+    "online": "EN LÍNEA",
+    "offline": "FUERA DE LÍNEA",
+    "coords": "COORDS",
+    "overlay": "CAPA TÁCTICA",
+    "friendly": "UNIDADES ALIADAS",
+    "hostiles": "HOSTILES"
+  },
+  "feed": {
+    "title": "FEED DE ACTIVIDAD EN TIEMPO REAL",
+    "live": "EN VIVO"
+  },
+  "intel": {
+    "telemetry": "Telemetría del Dispositivo",
+    "network": "Red",
+    "persistence": "Persistencia",
+    "critical_alerts": "Alertas Críticas",
+    "top_websites": "Sitios Más Visitados (24h)",
+    "top_contacts": "Contactos Principales",
+    "calls": "llamadas",
+    "acknowledge": "Reconocer",
+    "locate": "Localizar"
+  },
+  "settings": {
+    "title": "Configuración del Sistema",
+    "language": "Idioma de la Interfaz",
+    "select_language": "Seleccionar Idioma",
+    "close": "Cerrar",
+    "save": "Guardar Cambios"
+  },
+  "pairing": {
+    "title": "AÑADIR NUEVO DISPOSITIVO",
+    "scan_title": "Escanear con Cámara (HTTPS v2)",
+    "scan_subtitle": "Abra su aplicación de cámara o cualquier lector QR. Detectará un enlace seguro HTTPS.",
+    "scan_with_app": "Escanear con App Aegis",
+    "scan_instruction": "Abra la aplicación en el dispositivo objetivo y apunte la cámara a este código.",
+    "deep_link_label": "ENLACE PROFUNDO",
+    "deep_link_instruction": "Envíe este enlace al dispositivo objetivo vía WhatsApp, SMS o Email. Al hacer clic se emparejará automáticamente.",
+    "manual_code_label": "CÓDIGO MANUAL",
+    "manual_code_instruction": "Ingrese este código de 6 dígitos manualmente en la pantalla de emparejamiento de la App Aegis.",
+    "nfc_title": "Listo para Emparejar vía NFC",
+    "nfc_instruction": "Acerque el dispositivo objetivo a este terminal (si es compatible) o use otro dispositivo administrador.",
+    "expires_in": "SESIÓN EXPIRA EN:",
+    "id": "ID",
+    "copy_text": "Copiar Texto"
+  }
+}

@@ -1,0 +1,44 @@
+╔══════════════════════════════════════════════════════════════╗
+║          AEGIS PRIME - QUAL APK INSTALAR?                   ║
+╚══════════════════════════════════════════════════════════════╝
+
+📱 INSTALE ESTE APK:
+   👉 aegis-prime-FINAL.apk (15 MB)
+
+   Data: 02/02/2026 23:38
+   Tamanho: 15.308 KB
+
+   ✅ Versão mais recente
+   ✅ Com correções de acessibilidade
+   ✅ Com logs de debug
+   ✅ Assinado e otimizado
+
+═══════════════════════════════════════════════════════════════
+
+📂 LOCALIZAÇÕES DO APK CORRETO:
+
+1. C:\Users\felli\Desktop\aegis\android-nativo\outputs\apk\release\aegis-prime-FINAL.apk
+
+2. C:\Users\felli\OneDrive\Desktop\aegis\android-nativo\outputs\apk\release\aegis-prime-FINAL.apk
+
+3. C:\Users\felli\Desktop\aegis\frontend\public\aegis-prime.apk
+
+═══════════════════════════════════════════════════════════════
+
+🔍 COMO IDENTIFICAR O APK CORRETO:
+
+✅ Nome: aegis-prime-FINAL.apk
+✅ Tamanho: ~15 MB (15.308 KB)
+✅ Data: 02/02/2026 após 23:30
+✅ MD5: 6c47d76dd4f12aa4d85987792db33441
+
+═══════════════════════════════════════════════════════════════
+
+📋 PRÓXIMOS PASSOS:
+
+1. Transfira aegis-prime-FINAL.apk para o celular
+2. Instale o APK
+3. Siga as instruções em: INSTRUCOES-INSTALACAO.md
+4. Use logcat para debug: adb logcat -s AegisPrime:D *:S
+
+═══════════════════════════════════════════════════════════════

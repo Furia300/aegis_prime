@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_service_description">Este serviço é necessário para monitorar o texto digitado em outros aplicativos. O Aegis Prime usa essa permissão para a funcionalidade de keylogger, conforme especificado nos termos de serviço.</string>
+    <string name="app_name">Aegis Prime</string>
+    <style name="Theme.Aegisprime" parent="Theme.Material3.DayNight.NoActionBar">
+    
+    
+  </style>
+</resources>

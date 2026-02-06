@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Aegis – Interface Tática</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg-primary:#0a0e14;--bg-secondary:#141922;--bg-tertiary:#1a1f2e;--accent-blue:#00d4ff;--accent-green:#00ff88;--accent-red:#ff3366;--accent-yellow:#ffbb00;--text-primary:#e0e6ed;--text-secondary:#8892a6;--border-color:#2d3748}
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;background:var(--bg-primary);color:var(--text-primary);font-family:'Rajdhani',sans-serif}
+    .mono{font-family:'Roboto Mono',monospace}
+    ::-webkit-scrollbar{width:6px;height:6px}
+    ::-webkit-scrollbar-track{background:var(--bg-primary)}
+    ::-webkit-scrollbar-thumb{background:var(--border-color);border-radius:6px}
+    ::-webkit-scrollbar-thumb:hover{background:var(--text-secondary)}
+    .layout{display:grid;grid-template-columns:260px 1fr;min-height:100vh}
+    @media (max-width:880px){.layout{grid-template-columns:1fr}.sidebar{position:relative;width:auto}}
+    .sidebar{background:var(--bg-secondary);border-right:1px solid var(--border-color);display:flex;flex-direction:column}
+    .brand{display:flex;align-items:center;gap:12px;padding:16px;border-bottom:1px solid var(--border-color);background:linear-gradient(180deg,rgba(0,212,255,0.06),transparent);font-weight:800;letter-spacing:.18em}
+    .dot{width:6px;height:18px;background:var(--accent-blue);border-radius:2px}
+    .section-title{padding:16px;color:var(--text-secondary);font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase}
+    .nav{display:flex;flex-direction:column;gap:6px;padding:0 12px 16px}
+    .item{display:flex;align-items:center;justify-content:space-between;padding:10px 12px;border:1px solid var(--border-color);border-radius:8px;background:var(--bg-primary);color:var(--text-primary);font-size:12px;letter-spacing:.08em}
+    .item .left{display:flex;align-items:center;gap:10px;color:var(--text-secondary)}
+    .bullet{width:6px;height:16px;border-radius:2px;background:var(--accent-blue)}
+    .status{width:8px;height:8px;border-radius:50%;background:var(--bg-tertiary)}
+    .item:hover{border-color:rgba(0,212,255,.3)}
+    .item.active{border-color:var(--accent-blue)}
+    .item.active .left{color:var(--accent-blue)}
+    .item.active .status{background:var(--accent-green);box-shadow:0 0 8px var(--accent-green)}
+    .main{display:flex;flex-direction:column;min-width:0}
+    .topbar{border-bottom:1px solid var(--border-color);background:linear-gradient(180deg,rgba(0,212,255,0.06),transparent)}
+    .topbar-inner{max-width:1180px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between}
+    .actions{display:flex;gap:8px}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border:1px solid var(--border-color);border-radius:8px;color:var(--text-secondary);background:var(--bg-tertiary);font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+    .btn:hover{border-color:var(--accent-blue);color:var(--text-primary)}
+    .btn.primary{background:rgba(0,212,255,.16);border-color:var(--accent-blue);color:var(--accent-blue)}
+    .container{max-width:1180px;margin:0 auto;padding:0 20px}
+    .hero{padding:32px 0;background:radial-gradient(1200px 300px at 20% -50%, rgba(0,212,255,0.08), transparent),radial-gradient(900px 240px at 80% -60%, rgba(255,51,102,0.08), transparent)}
+    .hero h1{margin:0 0 8px;font-size:32px;font-weight:800;letter-spacing:.12em;display:flex;align-items:center;gap:10px;color:var(--accent-blue)}
+    .pulse{width:10px;height:10px;border-radius:50%;background:var(--accent-green);box-shadow:0 0 10px var(--accent-green);animation:pulse 1.8s infinite}
+    @keyframes pulse{0%,100%{opacity:.4;transform:scale(.9)}50%{opacity:1;transform:scale(1.15)}}
+    .hero p{margin:0;color:var(--text-secondary)}
+    .panel{margin-top:20px;border:1px solid var(--border-color);background:var(--bg-secondary);border-radius:10px;overflow:hidden}
+    .panel-head{display:flex;align-items:center;gap:10px;padding:14px 16px;border-bottom:1px solid var(--border-color);background:rgba(26,31,46,.6)}
+    .panel-head h2{margin:0;font-size:14px;font-weight:800;letter-spacing:.22em;color:var(--text-secondary)}
+    .grid{display:grid;gap:16px;padding:16px;grid-template-columns:repeat(1,minmax(0,1fr))}
+    @media (min-width:700px){.grid{grid-template-columns:repeat(2,1fr)}}
+    @media (min-width:1024px){.grid{grid-template-columns:repeat(3,1fr)}}
+    .card{background:var(--bg-tertiary);border:1px solid var(--border-color);border-radius:10px;padding:16px;transition:border-color .2s}
+    .card:hover{border-color:var(--accent-blue)}
+    .card-head{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+    .avatar{width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;color:var(--accent-blue);background:radial-gradient(120% 120% at 30% 20%, rgba(0,212,255,.18), transparent),radial-gradient(120% 120% at 70% 80%, rgba(255,51,102,.18), transparent);border:1px solid rgba(0,212,255,.3)}
+    .title{font-size:14px;font-weight:800;margin:0;color:var(--text-primary);transition:color .2s}
+    .card:hover .title{color:var(--accent-blue)}
+    .id{font-size:11px;color:var(--text-secondary)}
+    .info{display:flex;flex-direction:column;gap:8px;font-size:12px;color:var(--text-secondary)}
+    .row{display:flex;align-items:center;gap:8px}
+    .icon{width:14px;height:14px;opacity:.7}
+    footer{margin:40px 0 24px;color:var(--text-secondary);text-align:center}
+    a{text-decoration:none}
+  </style>
+  <script>
+    document.addEventListener('DOMContentLoaded',function(){
+      var links=document.querySelectorAll('.item');
+      links.forEach(function(l){l.addEventListener('click',function(e){var t=document.querySelectorAll('.item.active');t.forEach(function(n){n.classList.remove('active')});l.classList.add('active')})});
+    });
+  </script>
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="brand"><span class="dot"></span><span>Aegis</span></div>
+      <div class="section-title">Remote Control</div>
+      <nav class="nav">
+        <a class="item active" href="#dashboard"><div class="left"><span class="bullet"></span><span>Dashboard</span></div><span class="status"></span></a>
+        <a class="item" href="#mic"><div class="left"><span class="bullet"></span><span>Surroundings Listening</span></div><span class="status"></span></a>
+        <a class="item" href="#camera"><div class="left"><span class="bullet"></span><span>Remote Camera</span></div><span class="status"></span></a>
+        <a class="item" href="#calls"><div class="left"><span class="bullet"></span><span>Call Recorder</span></div><span class="status"></span></a>
+        <a class="item" href="#screenshots"><div class="left"><span class="bullet"></span><span>Live Screenshots</span></div><span class="status"></span></a>
+        <a class="item" href="#stream"><div class="left"><span class="bullet"></span><span>Screen Streaming</span></div><span class="status"></span></a>
+      </nav>
+      <div class="section-title">AI Tools</div>
+      <nav class="nav">
+        <a class="item" href="#chatgpt"><div class="left"><span class="bullet"></span><span>ChatGPT 4.0</span></div><span class="status"></span></a>
+        <a class="item" href="#gemini"><div class="left"><span class="bullet"></span><span>Gemini Pro</span></div><span class="status"></span></a>
+      </nav>
+      <div class="section-title">Dados Gerais</div>
+      <nav class="nav">
+        <a class="item" href="#keylogger"><div class="left"><span class="bullet"></span><span>Keylogger</span></div><span class="status"></span></a>
+        <a class="item" href="#social"><div class="left"><span class="bullet"></span><span>Redes Sociais</span></div><span class="status"></span></a>
+        <a class="item" href="#locations"><div class="left"><span class="bullet"></span><span>Localização GPS</span></div><span class="status"></span></a>
+        <a class="item" href="#media"><div class="left"><span class="bullet"></span><span>Fotos & Vídeos</span></div><span class="status"></span></a>
+        <a class="item" href="#callhistory"><div class="left"><span class="bullet"></span><span>Histórico Chamadas</span></div><span class="status"></span></a>
+        <a class="item" href="#contacts"><div class="left"><span class="bullet"></span><span>Contatos</span></div><span class="status"></span></a>
+        <a class="item" href="#browser"><div class="left"><span class="bullet"></span><span>Histórico Web</span></div><span class="status"></span></a>
+        <a class="item" href="#apps"><div class="left"><span class="bullet"></span><span>Apps Instalados</span></div><span class="status"></span></a>
+        <a class="item" href="#timeline"><div class="left"><span class="bullet"></span><span>Linha do Tempo</span></div><span class="status"></span></a>
+        <a class="item" href="#alerts"><div class="left"><span class="bullet"></span><span>Alertas</span></div><span class="status"></span></a>
+      </nav>
+      <div class="section-title">Monitoramento</div>
+      <nav class="nav">
+        <a class="item" href="#keywords"><div class="left"><span class="bullet"></span><span>Palavras‑Chave</span></div><span class="status"></span></a>
+        <a class="item" href="#spy"><div class="left"><span class="bullet"></span><span>Espionagem Avançada</span></div><span class="status"></span></a>
+      </nav>
+    </aside>
+    <div class="main">
+      <div class="topbar"><div class="topbar-inner"><div class="brand"><span class="dot"></span><span>Aegis</span></div><div class="actions"><a class="btn" href="#contacts">Contatos</a><a class="btn primary" href="#ativar">Ativar</a></div></div></div>
+      <main class="container" id="dashboard">
+        <section class="hero">
+          <h1><span class="pulse"></span> INTERFACE TÁTICA</h1>
+          <p class="mono">Sidebar e cartões de contato no estilo Aegis.</p>
+          <div class="panel" id="contacts">
+            <div class="panel-head"><h2 class="mono">CONTATOS</h2></div>
+            <div class="grid">
+              <article class="card"><div class="card-head"><div class="avatar">A</div><div><h3 class="title">Alice Martins</h3><div class="id mono">ID: 91f2c4a1</div></div></div><div class="info mono"><div class="row"><svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 3.09 5.18A2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.72a12.05 12.05 0 0 0 .65 2.73a2 2 0 0 1-.45 2.11L9 10a16 16 0 0 0 5 5l.44-.2a2 2 0 0 1 2.11-.45a12.05 12.05 0 0 0 2.73.65A2 2 0 0 1 22 16.92Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> (11) 99888-7766</div><div class="row"><svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M4 4h16v16H4z" stroke="currentColor" stroke-width="2"/><path d="M4 6l8 6 8-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> alice@example.com</div><div class="row"><svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M12 21s-6-5.33-6-10a6 6 0 1 1 12 0c0 4.67-6 10-6 10Z" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="11" r="2" stroke="currentColor" stroke-width="2"/></svg> Rua Delta, 123 — SP</div></div></article>
+              <article class="card"><div class="card-head"><div class="avatar">B</div><div><h3 class="title">Bruno Soares</h3><div class="id mono">ID: 62a9fe77</div></div></div><div class="info mono"><div class="row"><svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 3.09 5.18A2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.72a12.05 12.05 0 0 0 .65 2.73a2 2 0 0 1-.45 2.11L9 10a16 16 0 0 0 5 5l.44-.2a2 2 0 0 1 2.11-.45a12.05 12.05 0 0 0 2.73.65A2 2 0 0 1 22 16.92Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> (21) 90000-1122</div><div class="row"><svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M4 4h16v16H4z" stroke="currentColor" stroke-width="2"/><path d="M4 6l8 6 8-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> bruno@corp.io</div><div class="row"><svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M12 21s-6-5.33-6-10a6 6 0 1 1 12 0c0 4.67-6 10-6 10Z" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="11" r="2" stroke="currentColor" stroke-width="2"/></svg> Av. Orion, 456 — RJ</div></div></article>
+              <article class="card"><div class="card-head"><div class="avatar">C</div><div><h3 class="title">Camila Dias</h3><div class="id mono">ID: c83af0b2</div></div></div><div class="info mono"><div class="row"><svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 3.09 5.18A2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.72a12.05 12.05 0 0 0 .65 2.73a2 2 0 0 1-.45 2.11L9 10a16 16 0 0 0 5 5l.44-.2a2 2 0 0 1 2.11-.45a12.05 12.05 0 0 0 2.73.65A2 2 0 0 1 22 16.92Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> (31) 97777-3344</div><div class="row"><svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M4 4h16v16H4z" stroke="currentColor" stroke-width="2"/><path d="M4 6l8 6 8-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> camila@studio.dev</div><div class="row"><svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M12 21s-6-5.33-6-10a6 6 0 1 1 12 0c0 4.67-6 10-6 10Z" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="11" r="2" stroke="currentColor" stroke-width="2"/></svg> Alameda Vega, 89 — MG</div></div></article>
+            </div>
+          </div>
+        </section>
+        <footer class="mono">Feito com a paleta Aegis — sem tocar na sua pasta.</footer>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

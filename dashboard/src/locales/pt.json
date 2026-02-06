@@ -1,0 +1,155 @@
+{
+  "app": {
+    "title": "AEGIS PRIME",
+    "subtitle": "Painel de Guerra v3.0",
+    "status": "SISTEMA: ONLINE",
+    "encrypted": "CRIPTOGRAFIA: AES-256",
+    "threat_level": "NÍVEL DE AMEAÇA: BAIXO",
+    "operator": "OPERADOR",
+    "operator_id": "ID: 88-ALPHA",
+    "no_alerts": "Sem novos alertas do sistema"
+  },
+  "sidebar": {
+    "my_subscriptions": "MINHAS ASSINATURAS",
+    "add_device": "CONECTAR DISPOSITIVO",
+    "dashboard": "Painel Principal",
+    "remote_control": "CONTROLE REMOTO",
+    "surroundings_listening": "Escuta Ambiente",
+    "remote_camera": "Câmera Remota",
+    "call_recorder": "Gravador de Chamadas",
+    "live_screenshots": "Capturas de Tela ao Vivo",
+    "live_screen_streaming": "Transmissão de Tela ao Vivo",
+    "block_apps": "Bloquear Apps",
+    "block_websites": "Bloquear Sites",
+    "block_wifi": "Bloquear Wi-Fi",
+    "ai_tools": "FERRAMENTAS IA",
+    "chatgpt": "ChatGPT",
+    "gemini": "Gemini",
+    "monitoring": "MONITORAMENTO",
+    "general_data": "DADOS GERAIS",
+    "keylogger": "Keylogger",
+    "social_messages": "Redes Sociais",
+    "locations": "Localização GPS",
+    "media_gallery": "Fotos & Vídeos",
+    "call_history": "Histórico de Chamadas",
+    "contacts": "Contatos",
+    "browser_history": "Histórico Web",
+    "installed_apps": "Apps Instalados",
+    "timeline": "Linha do Tempo",
+    "alerts": "Alertas",
+    "keywords": "Palavras-Chave",
+    "spy_panel": "Espionagem Avançada"
+  },
+  "spy": {
+    "title": "VIGILÂNCIA PROFUNDA",
+    "subtitle": "Acesso a dados brutos e arquivos ocultos",
+    "tabs": {
+      "keylogger": "KEYLOGGER",
+      "media": "ARQUIVOS & MÍDIA",
+      "schedule": "AGENDAMENTOS"
+    },
+    "keylogger_status": "Status do Keylogger",
+    "active": "ATIVO (Acessibilidade Concedida)",
+    "clear_logs": "LIMPAR LOGS",
+    "new_rule": "NOVA REGRA DE GRAVAÇÃO AUTOMÁTICA",
+    "type": "Tipo de Captura",
+    "interval": "Intervalo",
+    "duration": "Duração (se áudio)",
+    "activate_schedule": "ATIVAR CRONOGRAMA",
+    "active_rules": "Regras Ativas"
+  },
+  "keywords": {
+    "title": "SENTINELA DE PALAVRAS",
+    "subtitle": "Monitoramento semântico de mensagens e digitação em tempo real",
+    "active_monitoring": "MONITORAMENTO ATIVO",
+    "add_trigger": "Adicionar Novo Gatilho",
+    "keyword_label": "Palavra-Chave / Frase",
+    "placeholder": "Ex: me ajuda, encontro secreto...",
+    "category": "Categoria",
+    "severity": "Severidade",
+    "activate_trigger": "ATIVAR GATILHO",
+    "latest_detections": "Últimas Detecções (Simulação)",
+    "active_triggers": "Gatilhos Ativos",
+    "synced": "SINCRONIZADO COM AGENTE"
+  },
+  "command": {
+    "title": "Ativos Protegidos",
+    "no_assets": "NENHUM ATIVO CONECTADO",
+    "waiting": "Aguardando telemetria do agente...",
+    "ai_matrix": "Matriz de Ameaça IA",
+    "matrix": {
+      "sentiment": "Análise de Sentimento",
+      "geo": "Risco Geoespacial",
+      "chatgpt": "Integração ChatGPT"
+    },
+    "actions": {
+      "mic": "Mic",
+      "cam": "Cam",
+      "rec": "Grav",
+      "shot": "Foto",
+      "live": "Live",
+      "lock": "Trava",
+      "wipe": "Limpar"
+    }
+  },
+  "map": {
+    "target_locked": "ALVO TRAVADO",
+    "device": "DISPOSITIVO",
+    "battery": "BATERIA",
+    "status": "STATUS",
+    "online": "ONLINE",
+    "offline": "OFFLINE",
+    "coords": "COORDS",
+    "overlay": "SOBREPOSIÇÃO TÁTICA",
+    "friendly": "UNIDADES ALIADAS",
+    "hostiles": "HOSTIS"
+  },
+  "feed": {
+    "title": "FEED DE ATIVIDADE EM TEMPO REAL",
+    "live": "AO VIVO"
+  },
+  "intel": {
+    "telemetry": "Telemetria do Dispositivo",
+    "network": "Rede",
+    "persistence": "Persistência",
+    "critical_alerts": "Alertas Críticos",
+    "top_websites": "Sites Mais Visitados (24h)",
+    "top_contacts": "Principais Contatos",
+    "calls": "chamadas",
+    "acknowledge": "Reconhecer",
+    "locate": "Localizar"
+  },
+  "settings": {
+    "title": "Configuração do Sistema",
+    "language": "Idioma da Interface",
+    "select_language": "Selecionar Idioma",
+    "close": "Fechar",
+    "save": "Salvar Alterações"
+  },
+  "pairing": {
+    "title": "ADICIONAR NOVO DISPOSITIVO",
+    "scan_title": "Escanear com a Câmera (HTTPS v2)",
+    "scan_subtitle": "Abra seu app de câmera ou qualquer leitor QR. Ele detectará um link seguro HTTPS.",
+    "scan_with_app": "Escanear com App Aegis",
+    "scan_instruction": "Abra o app no dispositivo alvo e aponte a câmera para este código.",
+    "deep_link_label": "DEEP LINK",
+    "deep_link_instruction": "Envie este link para o dispositivo alvo via WhatsApp, SMS ou Email. Clicar nele pareará o dispositivo automaticamente.",
+    "manual_code_label": "CÓDIGO MANUAL",
+    "manual_code_instruction": "Digite este código de 6 dígitos manualmente na tela de pareamento do App Aegis Mobile.",
+    "nfc_title": "Pronto para Parear via NFC",
+    "nfc_instruction": "Aproxime o dispositivo alvo deste terminal (se suportado) ou use outro dispositivo admin para encostar.",
+    "expires_in": "SESSÃO EXPIRA EM:",
+    "id": "ID",
+    "copy_text": "Copiar Texto"
+  },
+  "auth": {
+    "title": "ACESSO AO SISTEMA",
+    "subtitle": "ÁREA RESTRITA // APENAS PESSOAL AUTORIZADO",
+    "email": "ID DO OPERADOR (EMAIL)",
+    "password": "CÓDIGO DE ACESSO",
+    "login": "INICIALIZAR SESSÃO",
+    "forgot": "RECUPERAR ACESSO",
+    "error": "ACESSO NEGADO: CREDENCIAIS INVÁLIDAS",
+    "loading": "ESTABELECENDO CONEXÃO SEGURA..."
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "app": {
+    "title": "AEGIS PRIME",
+    "subtitle": "作战室仪表板 v3.0",
+    "status": "系统状态: 在线",
+    "encrypted": "加密: AES-256",
+    "threat_level": "威胁等级: 低",
+    "operator": "操作员",
+    "operator_id": "ID: 88-ALPHA",
+    "no_alerts": "无新警报"
+  },
+  "sidebar": {
+    "my_subscriptions": "我的订阅",
+    "dashboard": "仪表板",
+    "remote_control": "远程控制",
+    "surroundings_listening": "环境监听",
+    "remote_camera": "远程摄像头",
+    "call_recorder": "通话录音",
+    "live_screenshots": "实时截屏",
+    "live_screen_streaming": "实时屏幕流",
+    "block_apps": "屏蔽应用",
+    "block_websites": "屏蔽网站",
+    "block_wifi": "屏蔽 Wi-Fi",
+    "ai_tools": "AI 工具",
+    "chatgpt": "ChatGPT",
+    "gemini": "Gemini",
+    "monitoring": "监控",
+    "keywords": "关键词",
+    "spy_panel": "深度监视"
+  },
+  "spy": {
+    "title": "深度监视",
+    "subtitle": "原始数据访问和隐藏文件",
+    "tabs": {
+      "keylogger": "键盘记录器",
+      "media": "文件和媒体",
+      "schedule": "计划任务"
+    },
+    "keylogger_status": "键盘记录器状态",
+    "active": "激活 (已获辅助功能权限)",
+    "clear_logs": "清除日志",
+    "new_rule": "新建自动录制规则",
+    "type": "捕获类型",
+    "interval": "间隔",
+    "duration": "持续时间 (如果是音频)",
+    "activate_schedule": "激活计划",
+    "active_rules": "活动规则"
+  },
+  "keywords": {
+    "title": "关键词哨兵",
+    "subtitle": "实时语义监控消息和输入",
+    "active_monitoring": "主动监控",
+    "add_trigger": "添加新触发器",
+    "keyword_label": "关键词 / 短语",
+    "placeholder": "例如: 帮我, 秘密会议...",
+    "category": "类别",
+    "severity": "严重性",
+    "activate_trigger": "激活触发器",
+    "latest_detections": "最新检测 (模拟)",
+    "active_triggers": "活动触发器",
+    "synced": "与代理同步"
+  },
+  "command": {
+    "title": "受保护资产",
+    "no_assets": "未连接资产",
+    "waiting": "等待代理遥测...",
+    "ai_matrix": "AI 威胁矩阵",
+    "matrix": {
+      "sentiment": "情感分析",
+      "geo": "地理空间风险",
+      "chatgpt": "ChatGPT 集成"
+    },
+    "actions": {
+      "mic": "麦克",
+      "cam": "相机",
+      "rec": "录音",
+      "shot": "截屏",
+      "live": "直播",
+      "lock": "锁定",
+      "wipe": "擦除"
+    }
+  },
+  "map": {
+    "target_locked": "目标锁定",
+    "device": "设备",
+    "battery": "电池",
+    "status": "状态",
+    "online": "在线",
+    "offline": "离线",
+    "coords": "坐标",
+    "overlay": "战术覆盖层",
+    "friendly": "友军单位",
+    "hostiles": "敌对目标"
+  },
+  "feed": {
+    "title": "实时活动源",
+    "live": "直播"
+  },
+  "intel": {
+    "telemetry": "设备遥测",
+    "network": "网络",
+    "persistence": "持久性",
+    "critical_alerts": "严重警报",
+    "top_websites": "访问最多的网站 (24小时)",
+    "top_contacts": "主要联系人",
+    "calls": "通话",
+    "acknowledge": "确认",
+    "locate": "定位"
+  },
+  "settings": {
+    "title": "系统配置",
+    "language": "界面语言",
+    "select_language": "选择语言",
+    "close": "关闭",
+    "save": "保存更改"
+  },
+  "pairing": {
+    "title": "添加新设备",
+    "scan_title": "使用相机扫描 (HTTPS v2)",
+    "scan_subtitle": "打开相机应用或任何 QR 阅读器。它将检测到安全的 HTTPS 链接。",
+    "scan_with_app": "使用 Aegis App 扫描",
+    "scan_instruction": "在目标设备上打开应用程序，并将相机对准此代码。",
+    "deep_link_label": "深层链接",
+    "deep_link_instruction": "通过 WhatsApp、短信或电子邮件将此链接发送到目标设备。点击它将自动配对设备。",
+    "manual_code_label": "手动代码",
+    "manual_code_instruction": "在 Aegis Mobile App 配对屏幕中手动输入此 6 位数代码。",
+    "nfc_title": "准备通过 NFC 配对",
+    "nfc_instruction": "将目标设备靠近此终端（如果支持）。",
+    "expires_in": "会话过期时间:",
+    "id": "ID",
+    "copy_text": "复制文本"
+  }
+}

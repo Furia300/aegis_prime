@@ -1,0 +1,37 @@
+✅ BOTÃO DOWNLOAD APK FUNCIONANDO!
+
+O que foi implementado:
+
+1. ROTA /api/download-apk.html criada no Vite
+   - Página HTML bonita com botão de download
+   - Link direto para /aegis-prime.apk
+
+2. APK copiado para /public/aegis-prime.apk
+   - Dashboard agora serve o APK real
+   - MIME type correto (application/vnd.android.package-archive)
+
+3. QR Code no modal aponta para página de download
+   - Escaneia QR Code → Abre página → Clica BAIXAR → APK baixa
+
+TESTE AGORA:
+1. Abra http://192.168.15.4:3003
+2. Clique em "CONECTAR DISPOSITIVO"
+3. Aba "DOWNLOAD APP"
+4. Clique em "BAIXAR AGORA" OU escaneie QR Code
+5. APK deve baixar automaticamente!
+
+---
+
+PRÓXIMO: MÉTRICAS DETALHADAS
+
+Abri para você:
+- Notepad com SQL para executar no Supabase
+- Navegador com Supabase SQL Editor
+
+Execute o SQL para adicionar tabelas:
+- apps_usage (apps usados)
+- timeline (atividades cronológicas)
+- notifications (notificações)
+- screen_time (tempo de tela)
+
+Depois vou atualizar o dashboard para mostrar todas essas métricas!

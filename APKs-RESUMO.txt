@@ -1,0 +1,74 @@
+╔══════════════════════════════════════════════════════════════╗
+║     AEGIS PRIME - LOCALIZAÇÃO DOS APKs CORRETOS             ║
+╚══════════════════════════════════════════════════════════════╝
+
+✅ APKs CORRETOS E ATUALIZADOS (02/02/2026 23:29+):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. C:\Users\felli\Desktop\aegis\android-nativo\outputs\apk\release\aegis-prime-FINAL.apk
+   👉 USE ESTE PARA INSTALAR NO CELULAR
+
+2. C:\Users\felli\OneDrive\Desktop\aegis\android-nativo\outputs\apk\release\aegis-prime-FINAL.apk
+   👉 CÓPIA SINCRONIZADA (mesmo arquivo)
+
+3. C:\Users\felli\Desktop\aegis\frontend\public\aegis-prime.apk
+   👉 Para download via dashboard
+
+4. C:\Users\felli\OneDrive\Desktop\aegis\frontend\public\aegis-prime.apk
+   👉 Para download via dashboard (cópia sincronizada)
+
+
+⚠️ APKs ANTIGOS - PODEM SER DELETADOS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📁 Downloads (TODOS ANTIGOS):
+   - aegis-prime (1).apk
+   - aegis-prime-318 (1).apk
+   - aegis-prime-318 (2).apk
+   - aegis-prime-318.apk
+   - aegis-prime-319.apk
+   - aegis-prime-FINAL.apk (ANTIGO - verifique data!)
+   - aegis-prime-NOVO.apk
+   - aegis-prime.apk
+   - app-release.apk
+
+📁 CrossDevice:
+   - C:\Users\felli\CrossDevice\Redmi Note 11\app-release.apk
+
+📁 OneDrive\Documentos (projeto antigo):
+   - trae_projects\Aegis Prime\dashboard\dist\aegis-prime.apk
+   - trae_projects\Aegis Prime\dashboard\public\aegis-prime.apk
+   - trae_projects\Aegis Prime\mobile\android\app\build\outputs\apk\release\app-release.apk
+
+📁 Debug (versão antiga):
+   - OneDrive\Desktop\aegis\android-nativo\outputs\apk\debug\aegis-prime-signed.apk
+
+
+═══════════════════════════════════════════════════════════════
+
+🗑️ COMANDO PARA LIMPAR DOWNLOADS:
+
+Execute no terminal:
+
+   cd /c/Users/felli/Downloads
+   rm -f aegis*.apk app-release.apk
+
+Ou delete manualmente pela pasta Downloads.
+
+═══════════════════════════════════════════════════════════════
+
+✅ COMO IDENTIFICAR O APK CORRETO:
+
+Nome: aegis-prime-FINAL.apk
+Tamanho: 15 MB
+Data: 02/02/2026 após 23:29
+Local: Desktop\aegis\android-nativo\outputs\apk\release\
+
+═══════════════════════════════════════════════════════════════
+
+📱 PRÓXIMO PASSO:
+
+Transfira SOMENTE este arquivo para o celular:
+👉 C:\Users\felli\Desktop\aegis\android-nativo\outputs\apk\release\aegis-prime-FINAL.apk
+
+═══════════════════════════════════════════════════════════════

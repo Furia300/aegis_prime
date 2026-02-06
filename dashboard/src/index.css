@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-bg-primary text-text-primary font-tactical overflow-hidden;
+  }
+}
+
+/* Custom Scrollbar for "Tactical" look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-bg-primary;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-border-color rounded;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-text-secondary;
+}
+
+/* Mapbox/MapLibre Customization */
+.mapboxgl-popup-content {
+  @apply bg-bg-tertiary text-text-primary border border-border-color rounded-none shadow-2xl !important;
+}
+.mapboxgl-popup-tip {
+  @apply border-t-border-color !important;
+}
+.mapboxgl-map {
+    font-family: 'Rajdhani', sans-serif !important;
+}

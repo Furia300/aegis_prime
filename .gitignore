@@ -1,0 +1,28 @@
+# Dependências
+node_modules/
+
+# Builds e APKs
+*.apk
+dashboard/dist/
+dashboard_backup/dist/
+
+# Arquivos de ambiente
+.env
+.env.*
+
+# Backups
+dashboard_backup/
+backend_backup/
+
+# Android build
+android-nativo/app/build/
+*.class
+*.dex
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

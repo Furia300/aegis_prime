@@ -1,0 +1,651 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:2:1-80:12
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\fc6cba4891aa0b7376876060167f575f\workspace\transformed\material-1.13.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-video:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\9c998700e0d000de0734d702165f0271\workspace\transformed\jetified-camera-video-1.3.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-lifecycle:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\7c326551b005f60e143840349b0a388a\workspace\transformed\jetified-camera-lifecycle-1.3.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-camera2:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\a6deee97ae520712e2554c3bc309db79\workspace\transformed\jetified-camera-camera2-1.3.3\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-core:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\6b4b5d2ffe8fcb7ea5be674541fea745\workspace\transformed\jetified-camera-core-1.3.3\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-view:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\fed5b2d34164572ae865847f8b71290b\workspace\transformed\jetified-camera-view-1.3.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\3fdc9e1a07463b2b6dc68a580da49de6\workspace\transformed\constraintlayout-2.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\116ed76987cbf2bbe7f82fb7d0feb176\workspace\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\e2b628a569ad6bec0c3f10f5d2444482\workspace\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\d3f63405d12ec602ffffcf6402b0c7f7\workspace\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\53ef6011a24887203f08e702b773f8d2\workspace\transformed\jetified-play-services-location-21.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\1d47b0631ccc9b1bb8fd9f7feece5d63\workspace\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\c6bc5a2174ff6ee0c4600b24b2f9f616\workspace\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\3390a1555af8c223c4beb8b2f97c7814\workspace\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\felli\.gradle\caches\9.1.0\transforms\2fd94d06e86b7b0007d89af6930e8b5f\workspace\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.9.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\51e032dfad1953569223a6ab1ca40ed2\workspace\transformed\jetified-activity-1.9.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\01b5e7e794d320ffe915f96abf1ce43c\workspace\transformed\jetified-material3-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\cf65b69b4e4480aab6e7455e8f5c21b0\workspace\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\7d10b60edda0662de8fe4cd358ebe2ee\workspace\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\60e3689650c3f6d3d63f30a9975707c1\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\8f6ee83c991bf520ebb260d330dd3ae9\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\109be4d860158cc0efbebb1cc9a576f1\workspace\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\6bfdcdd2a61771a0fad62341166e54a4\workspace\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\e26c03c397720aef046db7641d06c838\workspace\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\b65f615779014d3c36ec676682754f84\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\9c34bf1eeeaece34686b317692ea51e5\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\aa9f63681a5777f56fcf2ca25749475f\workspace\transformed\jetified-graphics-shapes-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\f1ebf3d0b54af03b615285749e1dcc26\workspace\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\02e25239ec4e2fa8e608da995996a7a3\workspace\transformed\jetified-core-ktx-1.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\0b4c5fbb9ba02636882113b73263301a\workspace\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\b7df15441d2f1fb85fba2f75af23af76\workspace\transformed\jetified-animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\a1caed8b181364f41d5c2fb01f908080\workspace\transformed\jetified-material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\5e20f73c3254f1371ae838b6db01e91f\workspace\transformed\jetified-material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\24507d1b3cbfb4e78229846c3e3dcf3d\workspace\transformed\jetified-animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\f31068d3a50fdb12640f64ab6502922b\workspace\transformed\jetified-foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\ff77c2da633c6cb753696f14ce6e5dbd\workspace\transformed\jetified-foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\dbefa86a7d588625e901a08465997a86\workspace\transformed\jetified-ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\692e72eb7756703cb38553eac2ec4179\workspace\transformed\jetified-ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\12806ce08daff662c1a9310a72fde398\workspace\transformed\jetified-ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\f179e02c0b6f55e7318e1081f3371a60\workspace\transformed\jetified-ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\d27c0c9316414236d76db8b069d730b0\workspace\transformed\jetified-ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\0ab08940afc4fd6446832606beb89bc2\workspace\transformed\jetified-ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\5da9598ec1789525df3f866c71b3639d\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\618705c73a63e1f1fe89ecaff195309c\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\cefe245eaef4aec6dd7d53e779478086\workspace\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\0676dd338ae33b5f0e1df714787628eb\workspace\transformed\jetified-autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\21d6c1282d15de5e80f544de8c72c85e\workspace\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [io.github.jan-tennert.supabase:realtime-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\f7ee7043d7e92a35fa689b55bf7ff6b2\workspace\transformed\jetified-realtime-kt-debug\AndroidManifest.xml:2:1-7:12
+MERGED from [io.github.jan-tennert.supabase:postgrest-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\ebb8641233bf5ed9cb4837745088aa93\workspace\transformed\jetified-postgrest-kt-debug\AndroidManifest.xml:2:1-7:12
+MERGED from [io.github.jan-tennert.supabase:storage-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\81d1138872e882a051a17b535cbd4f71\workspace\transformed\jetified-storage-kt-debug\AndroidManifest.xml:2:1-20:12
+MERGED from [io.github.jan-tennert.supabase:gotrue-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\31e8c5bd0bb8f3467fc0737478942a4d\workspace\transformed\jetified-gotrue-kt-debug\AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\ed0af193f5c75099b9e4e389a3d4b9dd\workspace\transformed\browser-1.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.13.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\614221d4216c8a2d13068830f394e85b\workspace\transformed\core-1.13.0\AndroidManifest.xml:17:1-30:12
+MERGED from [io.github.jan-tennert.supabase:supabase-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\50b1a0bd525df333bbb20ff03e91af6f\workspace\transformed\jetified-supabase-kt-debug\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\2180fbea8b453c83346b18850e6e08ce\workspace\transformed\jetified-lifecycle-process-2.8.1\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\02adccf22c68d795b1bf32e3e794e885\workspace\transformed\jetified-lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\4583844227cc93f93b3886b80d4231ec\workspace\transformed\lifecycle-viewmodel-2.8.1\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\f519ea45a0f45d2baf5b7229ea6cb7f5\workspace\transformed\jetified-lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\9be4eea39ac1cdf171f9a3a0aa58c357\workspace\transformed\jetified-lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\4e2a32a94888e14e6d37f85aadfa02b4\workspace\transformed\jetified-lifecycle-livedata-core-ktx-2.8.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\cbd8bd69b7a002097f4e126be9e36614\workspace\transformed\lifecycle-livedata-core-2.8.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\9f2570d448ab20ede23779183ab6718e\workspace\transformed\jetified-lifecycle-viewmodel-savedstate-2.8.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\0852327b08c3585947b9544eaba50622\workspace\transformed\jetified-lifecycle-viewmodel-ktx-2.8.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\968cbff3a51fb397794ba741178ea01d\workspace\transformed\lifecycle-livedata-2.8.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\3a904369ed746c86f1fe75a2cf0da63a\workspace\transformed\jetified-lifecycle-viewmodel-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\087511fbb83c68cdaddd0e122a698760\workspace\transformed\jetified-ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\e14471b46423e86a27faadd81c3d80dc\workspace\transformed\jetified-activity-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.9.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\303b68f5ead414a1a6cce389fdd3b257\workspace\transformed\jetified-activity-compose-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\04c3788757985226607e3f00965ccf3f\workspace\transformed\jetified-runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\662d87f5012728fe5470108f5700ff55\workspace\transformed\jetified-runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\c2bd5a12ea710f94501a7763ca08831a\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\c00d88fcb5c6ab6371d94820f9113b34\workspace\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\897c00f355c790eb22fa7df588cadd01\workspace\transformed\jetified-multiplatform-settings-no-arg-debug\AndroidManifest.xml:17:1-35:12
+MERGED from [com.russhwolf:multiplatform-settings-coroutines-android-debug:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\290320802c61bdf07b485d64dc8f20e4\workspace\transformed\jetified-multiplatform-settings-coroutines-debug\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\7db8bc996c42a17e6ed8177d4fd08fe5\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\felli\.gradle\caches\9.1.0\transforms\9366c353831803c40ef50260cc8a610a\workspace\transformed\exifinterface-1.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\d10e02c90aa0c1e532b047672199d79b\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\e1432e99d36379cc258aa50aee3c9fd0\workspace\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\554f9663238d0d8da4f49e1ec70484b4\workspace\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\d7c53a83b6f6825e9e930b1e6c9622ac\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\f1c94cf7797d5f86f2ed49ba6537a5ba\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.russhwolf:multiplatform-settings-android-debug:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\2ff3f93a97ddc12cbf67958cf4e374c8\workspace\transformed\jetified-multiplatform-settings-debug\AndroidManifest.xml:2:1-7:12
+MERGED from [com.soywiz.korlibs.krypto:krypto-android:4.0.10] C:\Users\felli\.gradle\caches\9.1.0\transforms\894b1fbd3340ab9802b446c48d857212\workspace\transformed\jetified-krypto-debug\AndroidManifest.xml:2:1-9:12
+MERGED from [co.touchlab:kermit-android-debug:2.0.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\c415af4e70bab3088b0df40b06a073ab\workspace\transformed\jetified-kermit-debug\AndroidManifest.xml:2:1-7:12
+MERGED from [co.touchlab:kermit-core-android-debug:2.0.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\84b7b011d7377d0a740b419576e97008\workspace\transformed\jetified-kermit-core-debug\AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:6:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:9:5-85
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:9:22-82
+uses-permission#android.permission.READ_SMS
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:11:5-70
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:11:22-67
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:12:5-72
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:12:22-69
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:13:22-72
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:14:22-78
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:15:5-72
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:15:22-69
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:16:5-71
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:16:22-68
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:17:5-65
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:17:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:18:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:19:5-80
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:19:22-77
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:20:22-75
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:21:5-77
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:21:22-74
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:22:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:23:22-65
+uses-permission#android.permission.BIND_ACCESSIBILITY_SERVICE
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:25:5-85
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:25:22-82
+application
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:27:5-78:19
+INJECTED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:27:5-78:19
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\fc6cba4891aa0b7376876060167f575f\workspace\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\fc6cba4891aa0b7376876060167f575f\workspace\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.camera:camera-camera2:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\a6deee97ae520712e2554c3bc309db79\workspace\transformed\jetified-camera-camera2-1.3.3\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\a6deee97ae520712e2554c3bc309db79\workspace\transformed\jetified-camera-camera2-1.3.3\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\6b4b5d2ffe8fcb7ea5be674541fea745\workspace\transformed\jetified-camera-core-1.3.3\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\6b4b5d2ffe8fcb7ea5be674541fea745\workspace\transformed\jetified-camera-core-1.3.3\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\3fdc9e1a07463b2b6dc68a580da49de6\workspace\transformed\constraintlayout-2.1.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\3fdc9e1a07463b2b6dc68a580da49de6\workspace\transformed\constraintlayout-2.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\53ef6011a24887203f08e702b773f8d2\workspace\transformed\jetified-play-services-location-21.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\53ef6011a24887203f08e702b773f8d2\workspace\transformed\jetified-play-services-location-21.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\1d47b0631ccc9b1bb8fd9f7feece5d63\workspace\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\1d47b0631ccc9b1bb8fd9f7feece5d63\workspace\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\c6bc5a2174ff6ee0c4600b24b2f9f616\workspace\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\c6bc5a2174ff6ee0c4600b24b2f9f616\workspace\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\3390a1555af8c223c4beb8b2f97c7814\workspace\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\3390a1555af8c223c4beb8b2f97c7814\workspace\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\5da9598ec1789525df3f866c71b3639d\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\5da9598ec1789525df3f866c71b3639d\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [io.github.jan-tennert.supabase:storage-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\81d1138872e882a051a17b535cbd4f71\workspace\transformed\jetified-storage-kt-debug\AndroidManifest.xml:8:5-18:19
+MERGED from [io.github.jan-tennert.supabase:storage-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\81d1138872e882a051a17b535cbd4f71\workspace\transformed\jetified-storage-kt-debug\AndroidManifest.xml:8:5-18:19
+MERGED from [io.github.jan-tennert.supabase:gotrue-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\31e8c5bd0bb8f3467fc0737478942a4d\workspace\transformed\jetified-gotrue-kt-debug\AndroidManifest.xml:8:5-18:19
+MERGED from [io.github.jan-tennert.supabase:gotrue-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\31e8c5bd0bb8f3467fc0737478942a4d\workspace\transformed\jetified-gotrue-kt-debug\AndroidManifest.xml:8:5-18:19
+MERGED from [androidx.core:core:1.13.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\614221d4216c8a2d13068830f394e85b\workspace\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\614221d4216c8a2d13068830f394e85b\workspace\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\2180fbea8b453c83346b18850e6e08ce\workspace\transformed\jetified-lifecycle-process-2.8.1\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\2180fbea8b453c83346b18850e6e08ce\workspace\transformed\jetified-lifecycle-process-2.8.1\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\c2bd5a12ea710f94501a7763ca08831a\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\c2bd5a12ea710f94501a7763ca08831a\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\897c00f355c790eb22fa7df588cadd01\workspace\transformed\jetified-multiplatform-settings-no-arg-debug\AndroidManifest.xml:23:5-33:19
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\897c00f355c790eb22fa7df588cadd01\workspace\transformed\jetified-multiplatform-settings-no-arg-debug\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\e1432e99d36379cc258aa50aee3c9fd0\workspace\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\e1432e99d36379cc258aa50aee3c9fd0\workspace\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\614221d4216c8a2d13068830f394e85b\workspace\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:33:9-35
+	android:label
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:31:9-41
+	android:roundIcon
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:32:9-56
+	android:icon
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:30:9-45
+	android:allowBackup
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:29:9-35
+	android:theme
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:34:9-48
+	android:usesCleartextTraffic
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:35:9-44
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:28:9-46
+activity#com.example.aegis_prime.MainActivity
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:37:9-45:20
+	android:launchMode
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:40:13-43
+	android:exported
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:38:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:41:13-44:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:42:17-69
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:42:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:43:17-77
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:43:27-74
+receiver#com.example.aegis_prime.services.DeviceAdmin
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:47:9-57:20
+	android:exported
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:49:13-36
+	android:permission
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:50:13-70
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:48:13-49
+meta-data#android.app.device_admin
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:51:13-53:65
+	android:resource
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:53:17-62
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:52:17-56
+intent-filter#action:name:android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:54:13-56:29
+action#android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:55:17-82
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:55:25-79
+service#com.example.aegis_prime.services.AegisAccessibilityService
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:59:9-70:19
+	android:label
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:62:13-45
+	android:exported
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:61:13-37
+	android:permission
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:63:13-79
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:60:13-63
+meta-data#android.accessibilityservice
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:64:13-66:72
+	android:resource
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:66:17-69
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:65:17-60
+intent-filter#action:name:android.accessibilityservice.AccessibilityService
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:67:13-69:29
+action#android.accessibilityservice.AccessibilityService
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:68:17-92
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:68:25-89
+service#com.example.aegis_prime.services.LocationService
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:72:9-61
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:72:18-58
+service#com.example.aegis_prime.services.CommandListenerService
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:73:9-68
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:73:18-65
+service#com.example.aegis_prime.services.DataSyncService
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:74:9-61
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:74:18-58
+service#com.example.aegis_prime.services.CallRecordingService
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:75:9-66
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:75:18-63
+service#com.example.aegis_prime.services.DeviceStatusUpdaterService
+ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:76:9-97
+	android:exported
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:76:70-94
+	android:name
+		ADDED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml:76:18-69
+uses-sdk
+INJECTED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\fc6cba4891aa0b7376876060167f575f\workspace\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\fc6cba4891aa0b7376876060167f575f\workspace\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-video:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\9c998700e0d000de0734d702165f0271\workspace\transformed\jetified-camera-video-1.3.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-video:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\9c998700e0d000de0734d702165f0271\workspace\transformed\jetified-camera-video-1.3.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\7c326551b005f60e143840349b0a388a\workspace\transformed\jetified-camera-lifecycle-1.3.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\7c326551b005f60e143840349b0a388a\workspace\transformed\jetified-camera-lifecycle-1.3.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\a6deee97ae520712e2554c3bc309db79\workspace\transformed\jetified-camera-camera2-1.3.3\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\a6deee97ae520712e2554c3bc309db79\workspace\transformed\jetified-camera-camera2-1.3.3\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\6b4b5d2ffe8fcb7ea5be674541fea745\workspace\transformed\jetified-camera-core-1.3.3\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\6b4b5d2ffe8fcb7ea5be674541fea745\workspace\transformed\jetified-camera-core-1.3.3\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-view:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\fed5b2d34164572ae865847f8b71290b\workspace\transformed\jetified-camera-view-1.3.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-view:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\fed5b2d34164572ae865847f8b71290b\workspace\transformed\jetified-camera-view-1.3.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\3fdc9e1a07463b2b6dc68a580da49de6\workspace\transformed\constraintlayout-2.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\3fdc9e1a07463b2b6dc68a580da49de6\workspace\transformed\constraintlayout-2.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\116ed76987cbf2bbe7f82fb7d0feb176\workspace\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\116ed76987cbf2bbe7f82fb7d0feb176\workspace\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\e2b628a569ad6bec0c3f10f5d2444482\workspace\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\e2b628a569ad6bec0c3f10f5d2444482\workspace\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\d3f63405d12ec602ffffcf6402b0c7f7\workspace\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\d3f63405d12ec602ffffcf6402b0c7f7\workspace\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\53ef6011a24887203f08e702b773f8d2\workspace\transformed\jetified-play-services-location-21.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\53ef6011a24887203f08e702b773f8d2\workspace\transformed\jetified-play-services-location-21.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\1d47b0631ccc9b1bb8fd9f7feece5d63\workspace\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\1d47b0631ccc9b1bb8fd9f7feece5d63\workspace\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\c6bc5a2174ff6ee0c4600b24b2f9f616\workspace\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\c6bc5a2174ff6ee0c4600b24b2f9f616\workspace\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\3390a1555af8c223c4beb8b2f97c7814\workspace\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\3390a1555af8c223c4beb8b2f97c7814\workspace\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\felli\.gradle\caches\9.1.0\transforms\2fd94d06e86b7b0007d89af6930e8b5f\workspace\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\felli\.gradle\caches\9.1.0\transforms\2fd94d06e86b7b0007d89af6930e8b5f\workspace\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.9.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\51e032dfad1953569223a6ab1ca40ed2\workspace\transformed\jetified-activity-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\51e032dfad1953569223a6ab1ca40ed2\workspace\transformed\jetified-activity-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\01b5e7e794d320ffe915f96abf1ce43c\workspace\transformed\jetified-material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\01b5e7e794d320ffe915f96abf1ce43c\workspace\transformed\jetified-material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\cf65b69b4e4480aab6e7455e8f5c21b0\workspace\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\cf65b69b4e4480aab6e7455e8f5c21b0\workspace\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\7d10b60edda0662de8fe4cd358ebe2ee\workspace\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\7d10b60edda0662de8fe4cd358ebe2ee\workspace\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\60e3689650c3f6d3d63f30a9975707c1\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\60e3689650c3f6d3d63f30a9975707c1\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\8f6ee83c991bf520ebb260d330dd3ae9\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\8f6ee83c991bf520ebb260d330dd3ae9\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\109be4d860158cc0efbebb1cc9a576f1\workspace\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\109be4d860158cc0efbebb1cc9a576f1\workspace\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\6bfdcdd2a61771a0fad62341166e54a4\workspace\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\6bfdcdd2a61771a0fad62341166e54a4\workspace\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\e26c03c397720aef046db7641d06c838\workspace\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\e26c03c397720aef046db7641d06c838\workspace\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\b65f615779014d3c36ec676682754f84\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\b65f615779014d3c36ec676682754f84\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\9c34bf1eeeaece34686b317692ea51e5\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\9c34bf1eeeaece34686b317692ea51e5\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\aa9f63681a5777f56fcf2ca25749475f\workspace\transformed\jetified-graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\aa9f63681a5777f56fcf2ca25749475f\workspace\transformed\jetified-graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\f1ebf3d0b54af03b615285749e1dcc26\workspace\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\f1ebf3d0b54af03b615285749e1dcc26\workspace\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\02e25239ec4e2fa8e608da995996a7a3\workspace\transformed\jetified-core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\02e25239ec4e2fa8e608da995996a7a3\workspace\transformed\jetified-core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\0b4c5fbb9ba02636882113b73263301a\workspace\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\0b4c5fbb9ba02636882113b73263301a\workspace\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\b7df15441d2f1fb85fba2f75af23af76\workspace\transformed\jetified-animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\b7df15441d2f1fb85fba2f75af23af76\workspace\transformed\jetified-animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\a1caed8b181364f41d5c2fb01f908080\workspace\transformed\jetified-material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\a1caed8b181364f41d5c2fb01f908080\workspace\transformed\jetified-material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\5e20f73c3254f1371ae838b6db01e91f\workspace\transformed\jetified-material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\5e20f73c3254f1371ae838b6db01e91f\workspace\transformed\jetified-material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\24507d1b3cbfb4e78229846c3e3dcf3d\workspace\transformed\jetified-animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\24507d1b3cbfb4e78229846c3e3dcf3d\workspace\transformed\jetified-animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\f31068d3a50fdb12640f64ab6502922b\workspace\transformed\jetified-foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\f31068d3a50fdb12640f64ab6502922b\workspace\transformed\jetified-foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\ff77c2da633c6cb753696f14ce6e5dbd\workspace\transformed\jetified-foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\ff77c2da633c6cb753696f14ce6e5dbd\workspace\transformed\jetified-foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\dbefa86a7d588625e901a08465997a86\workspace\transformed\jetified-ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\dbefa86a7d588625e901a08465997a86\workspace\transformed\jetified-ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\692e72eb7756703cb38553eac2ec4179\workspace\transformed\jetified-ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\692e72eb7756703cb38553eac2ec4179\workspace\transformed\jetified-ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\12806ce08daff662c1a9310a72fde398\workspace\transformed\jetified-ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\12806ce08daff662c1a9310a72fde398\workspace\transformed\jetified-ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\f179e02c0b6f55e7318e1081f3371a60\workspace\transformed\jetified-ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\f179e02c0b6f55e7318e1081f3371a60\workspace\transformed\jetified-ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\d27c0c9316414236d76db8b069d730b0\workspace\transformed\jetified-ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\d27c0c9316414236d76db8b069d730b0\workspace\transformed\jetified-ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\0ab08940afc4fd6446832606beb89bc2\workspace\transformed\jetified-ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\0ab08940afc4fd6446832606beb89bc2\workspace\transformed\jetified-ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\5da9598ec1789525df3f866c71b3639d\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\5da9598ec1789525df3f866c71b3639d\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\618705c73a63e1f1fe89ecaff195309c\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\618705c73a63e1f1fe89ecaff195309c\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\cefe245eaef4aec6dd7d53e779478086\workspace\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\cefe245eaef4aec6dd7d53e779478086\workspace\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\0676dd338ae33b5f0e1df714787628eb\workspace\transformed\jetified-autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\0676dd338ae33b5f0e1df714787628eb\workspace\transformed\jetified-autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\21d6c1282d15de5e80f544de8c72c85e\workspace\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\21d6c1282d15de5e80f544de8c72c85e\workspace\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [io.github.jan-tennert.supabase:realtime-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\f7ee7043d7e92a35fa689b55bf7ff6b2\workspace\transformed\jetified-realtime-kt-debug\AndroidManifest.xml:5:5-44
+MERGED from [io.github.jan-tennert.supabase:realtime-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\f7ee7043d7e92a35fa689b55bf7ff6b2\workspace\transformed\jetified-realtime-kt-debug\AndroidManifest.xml:5:5-44
+MERGED from [io.github.jan-tennert.supabase:postgrest-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\ebb8641233bf5ed9cb4837745088aa93\workspace\transformed\jetified-postgrest-kt-debug\AndroidManifest.xml:5:5-44
+MERGED from [io.github.jan-tennert.supabase:postgrest-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\ebb8641233bf5ed9cb4837745088aa93\workspace\transformed\jetified-postgrest-kt-debug\AndroidManifest.xml:5:5-44
+MERGED from [io.github.jan-tennert.supabase:storage-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\81d1138872e882a051a17b535cbd4f71\workspace\transformed\jetified-storage-kt-debug\AndroidManifest.xml:6:5-44
+MERGED from [io.github.jan-tennert.supabase:storage-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\81d1138872e882a051a17b535cbd4f71\workspace\transformed\jetified-storage-kt-debug\AndroidManifest.xml:6:5-44
+MERGED from [io.github.jan-tennert.supabase:gotrue-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\31e8c5bd0bb8f3467fc0737478942a4d\workspace\transformed\jetified-gotrue-kt-debug\AndroidManifest.xml:6:5-44
+MERGED from [io.github.jan-tennert.supabase:gotrue-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\31e8c5bd0bb8f3467fc0737478942a4d\workspace\transformed\jetified-gotrue-kt-debug\AndroidManifest.xml:6:5-44
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\ed0af193f5c75099b9e4e389a3d4b9dd\workspace\transformed\browser-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\ed0af193f5c75099b9e4e389a3d4b9dd\workspace\transformed\browser-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.13.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\614221d4216c8a2d13068830f394e85b\workspace\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\614221d4216c8a2d13068830f394e85b\workspace\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [io.github.jan-tennert.supabase:supabase-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\50b1a0bd525df333bbb20ff03e91af6f\workspace\transformed\jetified-supabase-kt-debug\AndroidManifest.xml:5:5-44
+MERGED from [io.github.jan-tennert.supabase:supabase-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\50b1a0bd525df333bbb20ff03e91af6f\workspace\transformed\jetified-supabase-kt-debug\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\2180fbea8b453c83346b18850e6e08ce\workspace\transformed\jetified-lifecycle-process-2.8.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\2180fbea8b453c83346b18850e6e08ce\workspace\transformed\jetified-lifecycle-process-2.8.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\02adccf22c68d795b1bf32e3e794e885\workspace\transformed\jetified-lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\02adccf22c68d795b1bf32e3e794e885\workspace\transformed\jetified-lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\4583844227cc93f93b3886b80d4231ec\workspace\transformed\lifecycle-viewmodel-2.8.1\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\4583844227cc93f93b3886b80d4231ec\workspace\transformed\lifecycle-viewmodel-2.8.1\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\f519ea45a0f45d2baf5b7229ea6cb7f5\workspace\transformed\jetified-lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\f519ea45a0f45d2baf5b7229ea6cb7f5\workspace\transformed\jetified-lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\9be4eea39ac1cdf171f9a3a0aa58c357\workspace\transformed\jetified-lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\9be4eea39ac1cdf171f9a3a0aa58c357\workspace\transformed\jetified-lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\4e2a32a94888e14e6d37f85aadfa02b4\workspace\transformed\jetified-lifecycle-livedata-core-ktx-2.8.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\4e2a32a94888e14e6d37f85aadfa02b4\workspace\transformed\jetified-lifecycle-livedata-core-ktx-2.8.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\cbd8bd69b7a002097f4e126be9e36614\workspace\transformed\lifecycle-livedata-core-2.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\cbd8bd69b7a002097f4e126be9e36614\workspace\transformed\lifecycle-livedata-core-2.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\9f2570d448ab20ede23779183ab6718e\workspace\transformed\jetified-lifecycle-viewmodel-savedstate-2.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\9f2570d448ab20ede23779183ab6718e\workspace\transformed\jetified-lifecycle-viewmodel-savedstate-2.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\0852327b08c3585947b9544eaba50622\workspace\transformed\jetified-lifecycle-viewmodel-ktx-2.8.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\0852327b08c3585947b9544eaba50622\workspace\transformed\jetified-lifecycle-viewmodel-ktx-2.8.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\968cbff3a51fb397794ba741178ea01d\workspace\transformed\lifecycle-livedata-2.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\968cbff3a51fb397794ba741178ea01d\workspace\transformed\lifecycle-livedata-2.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\3a904369ed746c86f1fe75a2cf0da63a\workspace\transformed\jetified-lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\3a904369ed746c86f1fe75a2cf0da63a\workspace\transformed\jetified-lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\087511fbb83c68cdaddd0e122a698760\workspace\transformed\jetified-ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\087511fbb83c68cdaddd0e122a698760\workspace\transformed\jetified-ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\e14471b46423e86a27faadd81c3d80dc\workspace\transformed\jetified-activity-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\e14471b46423e86a27faadd81c3d80dc\workspace\transformed\jetified-activity-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\303b68f5ead414a1a6cce389fdd3b257\workspace\transformed\jetified-activity-compose-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\303b68f5ead414a1a6cce389fdd3b257\workspace\transformed\jetified-activity-compose-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\04c3788757985226607e3f00965ccf3f\workspace\transformed\jetified-runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\04c3788757985226607e3f00965ccf3f\workspace\transformed\jetified-runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\662d87f5012728fe5470108f5700ff55\workspace\transformed\jetified-runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.7] C:\Users\felli\.gradle\caches\9.1.0\transforms\662d87f5012728fe5470108f5700ff55\workspace\transformed\jetified-runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\c2bd5a12ea710f94501a7763ca08831a\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\c2bd5a12ea710f94501a7763ca08831a\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\c00d88fcb5c6ab6371d94820f9113b34\workspace\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\c00d88fcb5c6ab6371d94820f9113b34\workspace\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\897c00f355c790eb22fa7df588cadd01\workspace\transformed\jetified-multiplatform-settings-no-arg-debug\AndroidManifest.xml:21:5-44
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\897c00f355c790eb22fa7df588cadd01\workspace\transformed\jetified-multiplatform-settings-no-arg-debug\AndroidManifest.xml:21:5-44
+MERGED from [com.russhwolf:multiplatform-settings-coroutines-android-debug:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\290320802c61bdf07b485d64dc8f20e4\workspace\transformed\jetified-multiplatform-settings-coroutines-debug\AndroidManifest.xml:5:5-44
+MERGED from [com.russhwolf:multiplatform-settings-coroutines-android-debug:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\290320802c61bdf07b485d64dc8f20e4\workspace\transformed\jetified-multiplatform-settings-coroutines-debug\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\7db8bc996c42a17e6ed8177d4fd08fe5\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\7db8bc996c42a17e6ed8177d4fd08fe5\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\felli\.gradle\caches\9.1.0\transforms\9366c353831803c40ef50260cc8a610a\workspace\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\felli\.gradle\caches\9.1.0\transforms\9366c353831803c40ef50260cc8a610a\workspace\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\d10e02c90aa0c1e532b047672199d79b\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\d10e02c90aa0c1e532b047672199d79b\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\e1432e99d36379cc258aa50aee3c9fd0\workspace\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\e1432e99d36379cc258aa50aee3c9fd0\workspace\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\554f9663238d0d8da4f49e1ec70484b4\workspace\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\554f9663238d0d8da4f49e1ec70484b4\workspace\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\d7c53a83b6f6825e9e930b1e6c9622ac\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\d7c53a83b6f6825e9e930b1e6c9622ac\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\f1c94cf7797d5f86f2ed49ba6537a5ba\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\f1c94cf7797d5f86f2ed49ba6537a5ba\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.russhwolf:multiplatform-settings-android-debug:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\2ff3f93a97ddc12cbf67958cf4e374c8\workspace\transformed\jetified-multiplatform-settings-debug\AndroidManifest.xml:5:5-44
+MERGED from [com.russhwolf:multiplatform-settings-android-debug:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\2ff3f93a97ddc12cbf67958cf4e374c8\workspace\transformed\jetified-multiplatform-settings-debug\AndroidManifest.xml:5:5-44
+MERGED from [com.soywiz.korlibs.krypto:krypto-android:4.0.10] C:\Users\felli\.gradle\caches\9.1.0\transforms\894b1fbd3340ab9802b446c48d857212\workspace\transformed\jetified-krypto-debug\AndroidManifest.xml:5:5-7:41
+MERGED from [com.soywiz.korlibs.krypto:krypto-android:4.0.10] C:\Users\felli\.gradle\caches\9.1.0\transforms\894b1fbd3340ab9802b446c48d857212\workspace\transformed\jetified-krypto-debug\AndroidManifest.xml:5:5-7:41
+MERGED from [co.touchlab:kermit-android-debug:2.0.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\c415af4e70bab3088b0df40b06a073ab\workspace\transformed\jetified-kermit-debug\AndroidManifest.xml:5:5-44
+MERGED from [co.touchlab:kermit-android-debug:2.0.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\c415af4e70bab3088b0df40b06a073ab\workspace\transformed\jetified-kermit-debug\AndroidManifest.xml:5:5-44
+MERGED from [co.touchlab:kermit-core-android-debug:2.0.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\84b7b011d7377d0a740b419576e97008\workspace\transformed\jetified-kermit-core-debug\AndroidManifest.xml:5:5-44
+MERGED from [co.touchlab:kermit-core-android-debug:2.0.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\84b7b011d7377d0a740b419576e97008\workspace\transformed\jetified-kermit-core-debug\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\felli\StudioProjects\aegis_prime\app\src\main\AndroidManifest.xml
+service#androidx.camera.core.impl.MetadataHolderService
+ADDED from [androidx.camera:camera-camera2:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\a6deee97ae520712e2554c3bc309db79\workspace\transformed\jetified-camera-camera2-1.3.3\AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-core:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\6b4b5d2ffe8fcb7ea5be674541fea745\workspace\transformed\jetified-camera-core-1.3.3\AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-core:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\6b4b5d2ffe8fcb7ea5be674541fea745\workspace\transformed\jetified-camera-core-1.3.3\AndroidManifest.xml:29:9-33:78
+	tools:node
+		ADDED from [androidx.camera:camera-camera2:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\a6deee97ae520712e2554c3bc309db79\workspace\transformed\jetified-camera-camera2-1.3.3\AndroidManifest.xml:29:13-31
+	android:enabled
+		ADDED from [androidx.camera:camera-camera2:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\a6deee97ae520712e2554c3bc309db79\workspace\transformed\jetified-camera-camera2-1.3.3\AndroidManifest.xml:26:13-36
+	android:exported
+		ADDED from [androidx.camera:camera-camera2:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\a6deee97ae520712e2554c3bc309db79\workspace\transformed\jetified-camera-camera2-1.3.3\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.camera:camera-camera2:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\a6deee97ae520712e2554c3bc309db79\workspace\transformed\jetified-camera-camera2-1.3.3\AndroidManifest.xml:28:13-75
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\a6deee97ae520712e2554c3bc309db79\workspace\transformed\jetified-camera-camera2-1.3.3\AndroidManifest.xml:25:13-75
+meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
+ADDED from [androidx.camera:camera-camera2:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\a6deee97ae520712e2554c3bc309db79\workspace\transformed\jetified-camera-camera2-1.3.3\AndroidManifest.xml:30:13-32:89
+	android:value
+		ADDED from [androidx.camera:camera-camera2:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\a6deee97ae520712e2554c3bc309db79\workspace\transformed\jetified-camera-camera2-1.3.3\AndroidManifest.xml:32:17-86
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.3.3] C:\Users\felli\.gradle\caches\9.1.0\transforms\a6deee97ae520712e2554c3bc309db79\workspace\transformed\jetified-camera-camera2-1.3.3\AndroidManifest.xml:31:17-103
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\1d47b0631ccc9b1bb8fd9f7feece5d63\workspace\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\1d47b0631ccc9b1bb8fd9f7feece5d63\workspace\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\1d47b0631ccc9b1bb8fd9f7feece5d63\workspace\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\1d47b0631ccc9b1bb8fd9f7feece5d63\workspace\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\3390a1555af8c223c4beb8b2f97c7814\workspace\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\3390a1555af8c223c4beb8b2f97c7814\workspace\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\3390a1555af8c223c4beb8b2f97c7814\workspace\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\5da9598ec1789525df3f866c71b3639d\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [io.github.jan-tennert.supabase:storage-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\81d1138872e882a051a17b535cbd4f71\workspace\transformed\jetified-storage-kt-debug\AndroidManifest.xml:9:9-17:20
+MERGED from [io.github.jan-tennert.supabase:storage-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\81d1138872e882a051a17b535cbd4f71\workspace\transformed\jetified-storage-kt-debug\AndroidManifest.xml:9:9-17:20
+MERGED from [io.github.jan-tennert.supabase:gotrue-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\31e8c5bd0bb8f3467fc0737478942a4d\workspace\transformed\jetified-gotrue-kt-debug\AndroidManifest.xml:9:9-17:20
+MERGED from [io.github.jan-tennert.supabase:gotrue-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\31e8c5bd0bb8f3467fc0737478942a4d\workspace\transformed\jetified-gotrue-kt-debug\AndroidManifest.xml:9:9-17:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\2180fbea8b453c83346b18850e6e08ce\workspace\transformed\jetified-lifecycle-process-2.8.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\2180fbea8b453c83346b18850e6e08ce\workspace\transformed\jetified-lifecycle-process-2.8.1\AndroidManifest.xml:24:9-32:20
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\897c00f355c790eb22fa7df588cadd01\workspace\transformed\jetified-multiplatform-settings-no-arg-debug\AndroidManifest.xml:24:9-32:20
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\897c00f355c790eb22fa7df588cadd01\workspace\transformed\jetified-multiplatform-settings-no-arg-debug\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\e1432e99d36379cc258aa50aee3c9fd0\workspace\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\e1432e99d36379cc258aa50aee3c9fd0\workspace\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\5da9598ec1789525df3f866c71b3639d\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\5da9598ec1789525df3f866c71b3639d\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\5da9598ec1789525df3f866c71b3639d\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\5da9598ec1789525df3f866c71b3639d\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\5da9598ec1789525df3f866c71b3639d\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\5da9598ec1789525df3f866c71b3639d\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\5da9598ec1789525df3f866c71b3639d\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+meta-data#io.github.jan.supabase.storage.SupabaseInitializer
+ADDED from [io.github.jan-tennert.supabase:storage-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\81d1138872e882a051a17b535cbd4f71\workspace\transformed\jetified-storage-kt-debug\AndroidManifest.xml:14:13-16:52
+	android:value
+		ADDED from [io.github.jan-tennert.supabase:storage-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\81d1138872e882a051a17b535cbd4f71\workspace\transformed\jetified-storage-kt-debug\AndroidManifest.xml:16:17-49
+	android:name
+		ADDED from [io.github.jan-tennert.supabase:storage-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\81d1138872e882a051a17b535cbd4f71\workspace\transformed\jetified-storage-kt-debug\AndroidManifest.xml:15:17-82
+meta-data#io.github.jan.supabase.gotrue.SupabaseInitializer
+ADDED from [io.github.jan-tennert.supabase:gotrue-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\31e8c5bd0bb8f3467fc0737478942a4d\workspace\transformed\jetified-gotrue-kt-debug\AndroidManifest.xml:14:13-16:52
+	android:value
+		ADDED from [io.github.jan-tennert.supabase:gotrue-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\31e8c5bd0bb8f3467fc0737478942a4d\workspace\transformed\jetified-gotrue-kt-debug\AndroidManifest.xml:16:17-49
+	android:name
+		ADDED from [io.github.jan-tennert.supabase:gotrue-kt-android-debug:2.3.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\31e8c5bd0bb8f3467fc0737478942a4d\workspace\transformed\jetified-gotrue-kt-debug\AndroidManifest.xml:15:17-81
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\614221d4216c8a2d13068830f394e85b\workspace\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\614221d4216c8a2d13068830f394e85b\workspace\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\614221d4216c8a2d13068830f394e85b\workspace\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+permission#com.example.aegis_prime.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\614221d4216c8a2d13068830f394e85b\workspace\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\614221d4216c8a2d13068830f394e85b\workspace\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\614221d4216c8a2d13068830f394e85b\workspace\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\614221d4216c8a2d13068830f394e85b\workspace\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\614221d4216c8a2d13068830f394e85b\workspace\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.aegis_prime.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\614221d4216c8a2d13068830f394e85b\workspace\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\felli\.gradle\caches\9.1.0\transforms\614221d4216c8a2d13068830f394e85b\workspace\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\2180fbea8b453c83346b18850e6e08ce\workspace\transformed\jetified-lifecycle-process-2.8.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\2180fbea8b453c83346b18850e6e08ce\workspace\transformed\jetified-lifecycle-process-2.8.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\2180fbea8b453c83346b18850e6e08ce\workspace\transformed\jetified-lifecycle-process-2.8.1\AndroidManifest.xml:30:17-78
+meta-data#com.russhwolf.settings.SettingsInitializer
+ADDED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\897c00f355c790eb22fa7df588cadd01\workspace\transformed\jetified-multiplatform-settings-no-arg-debug\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\897c00f355c790eb22fa7df588cadd01\workspace\transformed\jetified-multiplatform-settings-no-arg-debug\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\897c00f355c790eb22fa7df588cadd01\workspace\transformed\jetified-multiplatform-settings-no-arg-debug\AndroidManifest.xml:30:17-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\felli\.gradle\caches\9.1.0\transforms\1588c86c984f182f8abb229afdb89f74\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
